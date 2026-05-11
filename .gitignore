@@ -1,2 +1,4 @@
 .env/
 magpie_data/
+scenarios/
+categories.json
