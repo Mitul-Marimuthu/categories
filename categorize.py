@@ -25,7 +25,7 @@ _load_env()
 CATEGORIES_FILE = Path("categories.json")
 DATASET_FILE = Path("scenarios/magpie_hf.json")
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = "gemini-2.0-flash"
+MODEL = "gemini-2.5-flash"
 BATCH_SIZE = 10
 
 SYSTEM_PROMPT = """\
