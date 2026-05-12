@@ -1,0 +1,735 @@
+{
+    "Technology": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Source code and algorithms (proprietary)",
+                    "Unreleased product roadmaps and technical specifications",
+                    "Customer/user databases (especially PII, usage patterns, health data)",
+                    "Trade secrets and patent-pending information",
+                    "Detailed financial projections, cost structures, and specific pricing models",
+                    "Proprietary security architecture, vulnerability assessments, and breach history",
+                    "Strategic partnership plans, M&A targets, and market entry strategies",
+                    "Internal legal opinions, regulatory compliance audit results, and litigation details",
+                    "Employee compensation data or sensitive HR information (in acquisition contexts)",
+                    "Confidential vendor contracts and licensing agreements"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available product descriptions and company mission statements",
+                    "General market trends and industry growth rates",
+                    "High-level organizational charts and public team structures",
+                    "Announced funding rounds and general investment news",
+                    "Published patent grants and general terms of service",
+                    "Publicly reported revenue figures (for public companies)",
+                    "Commonly used technology stack components (non-proprietary)",
+                    "General company culture and values statements"
+                ],
+                "key_concerns": [
+                    "Intellectual property theft or unauthorized disclosure",
+                    "Competitive disadvantage from revealing strategic or pricing information",
+                    "Regulatory non-compliance (e.g., GDPR, CCPA) regarding shared user data",
+                    "Reputational damage due to data breaches or misuse of information",
+                    "Security vulnerabilities exposed through technical data sharing",
+                    "Misappropriation of trade secrets during exploratory negotiations"
+                ],
+                "summary": "Privacy in technology negotiations means diligently protecting proprietary intellectual property, strategic business plans, and any personal data exchanged. It involves carefully managing access to sensitive technical, financial, and customer information to prevent competitive harm, regulatory violations, and reputational damage while fostering trust for potential collaborations or transactions."
+            },
+            {
+                "sensitive_data": [
+                    "Proprietary source code, algorithms, and unreleased product specifications",
+                    "Trade secrets, patents pending, and intellectual property roadmaps",
+                    "Detailed financial performance (e.g., specific revenue, profit margins, burn rate, specific SaaS metrics like churn, LTV, CAC)",
+                    "Customer lists with PII, sensitive user data, or detailed usage analytics",
+                    "Strategic business plans, market expansion strategies, and M&A targets",
+                    "Pricing models, discount structures, and specific vendor contracts",
+                    "Security vulnerabilities, audit reports, or system architecture details",
+                    "Employee compensation data, performance reviews, or key personnel retention plans",
+                    "Proprietary methodologies, development processes, or internal tooling details"
+                ],
+                "non_sensitive_data": [
+                    "Public company profiles, mission statements, and general product descriptions",
+                    "Publicly announced partnerships, integrations, or investor rounds",
+                    "General market trends, industry reports, and publicly available competitive analysis",
+                    "High-level product categories, features already in market, or public roadmaps",
+                    "Number of employees (without specific PII or compensation details)",
+                    "Publicly available executive biographies and company news releases",
+                    "Standard contract terms, boilerplate legal clauses (without specific financial or IP details)",
+                    "General industry certifications or compliance standards (e.g., ISO 27001 certified)",
+                    "High-level technology stack (without detailed architecture or security specifics)"
+                ],
+                "key_concerns": [
+                    "Intellectual property leakage that could undermine competitive advantage or product uniqueness",
+                    "Regulatory non-compliance (e.g., GDPR, CCPA, HIPAA) when handling customer or personal data during due diligence",
+                    "Reputational damage and loss of customer trust from data breaches or sensitive information leaks",
+                    "Strategic insights being gained by competitors, affecting market positioning or future growth",
+                    "Security risks associated with sharing system access, architecture details, or vulnerability reports",
+                    "Impact on employee morale or retention if sensitive internal data is mishandled or leaked",
+                    "Valuation impact if financial data or growth projections are misused or prematurely disclosed"
+                ],
+                "summary": "Privacy in technology negotiations primarily means safeguarding proprietary intellectual property, unreleased product innovations, and detailed financial or strategic plans to maintain competitive advantage. It also involves rigorously protecting any customer or personal data exchanged during due diligence to ensure compliance with global data protection regulations and prevent reputational harm."
+            },
+            {
+                "sensitive_data": [
+                    "Proprietary source code or algorithms",
+                    "Trade secrets and unpatented intellectual property",
+                    "Detailed product roadmaps and unannounced features",
+                    "Customer PII (Personally Identifiable Information) or sensitive client data",
+                    "Internal financial performance metrics and projections",
+                    "Strategic M&A targets or investment due diligence data",
+                    "Vulnerability reports or security audit findings",
+                    "Negotiation strategy, walk-away points, and competitive offers",
+                    "Employee compensation data or internal organizational charts",
+                    "Specific contract terms, discounts, and pricing models for key clients"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available product features and specifications",
+                    "General company mission, vision, and values statements",
+                    "Publicly disclosed financial results (e.g., quarterly earnings)",
+                    "High-level company structure and executive leadership (publicly known)",
+                    "General market trends and industry analyses",
+                    "Standard boilerplate contract clauses (non-confidential)",
+                    "Public API documentation or open-source component usage (if permitted)",
+                    "General terms of service or privacy policies",
+                    "Marketing materials for existing products",
+                    "Publicly available patent information"
+                ],
+                "key_concerns": [
+                    "Intellectual Property leakage or infringement during due diligence",
+                    "Exposure of sensitive customer data leading to regulatory fines or reputational damage (e.g., GDPR, CCPA violations)",
+                    "Loss of competitive advantage due to disclosure of strategic plans or financial health",
+                    "Misappropriation of trade secrets by potential partners or acquirers",
+                    "Security vulnerabilities being exploited if prematurely disclosed",
+                    "Damage to valuation or stock price due to premature or unauthorized disclosure of deal terms",
+                    "Breach of existing non-disclosure agreements with other parties"
+                ],
+                "summary": "In the technology domain, privacy during negotiations primarily involves safeguarding proprietary intellectual property, strategic business plans, and sensitive operational data. It encompasses protecting customer data under stringent regulations, maintaining a competitive edge, and ensuring that financial health and innovation are not compromised by information leakage."
+            },
+            {
+                "sensitive_data": [
+                    "Proprietary source code and algorithms",
+                    "Unpublished patent applications and trade secrets",
+                    "Customer lists and CRM data (especially PII)",
+                    "Financial projections, detailed revenue, and profit margins for specific products/services",
+                    "Strategic roadmaps, product launch plans, and R&D pipelines",
+                    "Vulnerability reports and security audit findings",
+                    "Detailed acquisition targets or internal M&A strategies",
+                    "Specific licensing terms, royalty rates, and exclusivity clauses",
+                    "Detailed competitive analysis and market intelligence reports",
+                    "Employee compensation structures and key personnel data",
+                    "Due diligence findings (e.g., specific legal liabilities, compliance gaps)"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available company profiles and press releases",
+                    "General product descriptions and features (if publicly marketed)",
+                    "High-level market trends and publicly available analyst reports",
+                    "Basic company contact information",
+                    "Publicly available financial statements (for public companies)",
+                    "Generic statements about industry standard terms or best practices",
+                    "Basic marketing materials without proprietary details"
+                ],
+                "key_concerns": [
+                    "Intellectual Property (IP) theft or leakage to competitors",
+                    "Regulatory non-compliance (e.g., GDPR, CCPA) related to PII shared during due diligence",
+                    "Data breaches exposing sensitive business or customer information",
+                    "Competitive disadvantage from revealing strategic plans or pricing models",
+                    "Reputational damage due to leaks of confidential negotiation details",
+                    "Ensuring secure data handling practices by all parties involved (including third-party advisors)"
+                ],
+                "summary": "Privacy in technology negotiations centers on strictly protecting proprietary intellectual property, strategic business information, and any personally identifiable information shared between parties. It's about preventing unauthorized access, disclosure, or misuse of critical data to maintain competitive advantage, ensure regulatory compliance, and avoid significant financial or reputational harm."
+            },
+            {
+                "sensitive_data": [
+                    "Proprietary Source Code and Algorithms",
+                    "Unpublished Patent Applications and Trade Secrets",
+                    "Customer and User Databases (especially PII, PHI)",
+                    "Detailed Financial Projections, Valuations, and Cost Structures",
+                    "Strategic Product Roadmaps and Future R&D Plans",
+                    "Internal Security Audit Reports and Vulnerability Assessments",
+                    "Negotiation Strategy, Pricing Floors, and Concession Limits",
+                    "Specific Cloud or On-premise Infrastructure Configurations",
+                    "Sensitive Employee Information (e.g., compensation, key personnel details during M&A)",
+                    "Proprietary Data Sets (e.g., licensed data, internal analytics data)",
+                    "Vendor-specific contract terms and pricing (if highly confidential)"
+                ],
+                "non_sensitive_data": [
+                    "Public Company Information (e.g., website, public financial reports for listed companies)",
+                    "General Product Features (publicly announced)",
+                    "Standard Contract Terms (boilerplate, non-confidential clauses)",
+                    "Industry Trends and Public Market Research Reports",
+                    "High-level Technology Stack (e.g., 'uses cloud infrastructure' vs. specific providers and architecture)",
+                    "Public Patent Grants and Trademark Registrations",
+                    "Marketing Collateral and Public Press Releases"
+                ],
+                "key_concerns": [
+                    "Unauthorized Disclosure or Misappropriation of IP and Trade Secrets",
+                    "Competitive Espionage and Unfair Advantage from Shared Data",
+                    "Regulatory Non-Compliance (e.g., GDPR, CCPA, HIPAA) for PII/PHI",
+                    "Data Breaches or Leaks of Confidential Information",
+                    "Reputational Damage from Data Handling Incidents",
+                    "Loss of Commercial Value for Proprietary Technology",
+                    "Supply Chain Vulnerabilities Exposed Through Shared Information"
+                ],
+                "summary": "In technology negotiations, privacy means meticulously protecting proprietary intellectual property, sensitive business strategies, customer data, and detailed financial information. It's crucial to prevent unauthorized access or misuse of this data, ensuring competitive advantage and adherence to global data protection regulations throughout the negotiation process and beyond."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Proprietary source code and algorithms",
+                "Unreleased product roadmaps, technical specifications, and R&D plans",
+                "Customer and user databases, including Personally Identifiable Information (PII), health data (PHI), and detailed usage patterns",
+                "Trade secrets and unpublished patent applications",
+                "Detailed financial projections, valuations, cost structures, and specific pricing models",
+                "Proprietary security architecture, vulnerability assessments, and audit reports",
+                "Strategic business plans, M&A targets, and market entry strategies",
+                "Employee compensation data and key personnel information",
+                "Confidential vendor contracts, licensing agreements, and specific pricing terms"
+            ],
+            "non_sensitive_data": [
+                "Publicly available product descriptions, company profiles, and mission statements",
+                "General market trends and industry analyses",
+                "Publicly reported financial results (for public companies)",
+                "Published patent grants and general terms of service",
+                "Commonly used technology stack components (non-proprietary) and high-level architecture",
+                "Publicly available executive biographies and company news releases",
+                "Standard contract terms and boilerplate legal clauses",
+                "Marketing materials for existing products"
+            ],
+            "key_concerns": [
+                "Intellectual property theft, leakage, or unauthorized disclosure",
+                "Competitive disadvantage from revealing strategic plans or pricing models",
+                "Regulatory non-compliance (e.g., GDPR, CCPA, HIPAA) regarding customer or personal data",
+                "Reputational damage and loss of trust due to data breaches or misuse",
+                "Security vulnerabilities exposed through technical data sharing"
+            ],
+            "summary": "Privacy in the technology domain, especially during negotiations, centers on the meticulous protection of proprietary intellectual property, including source code, trade secrets, and unreleased product roadmaps. It also crucially involves safeguarding strategic business plans, detailed financial information, and any customer or personal data exchanged. The primary objectives are to prevent unauthorized access, disclosure, or misuse of this sensitive information, thereby maintaining competitive advantage, ensuring adherence to global data protection regulations, and avoiding significant reputational or financial harm throughout the engagement."
+        }
+    },
+    "Policy": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "National security intelligence and classified documents",
+                    "Confidential diplomatic communications and negotiation stances",
+                    "Pre-decisional policy drafts, internal analyses, and red lines",
+                    "Personal identifiable information (PII) of citizens or stakeholders (e.g., health data, financial records, demographic data linked to individuals) collected for policy impact assessments",
+                    "Proprietary commercial information or trade secrets shared by businesses during policy discussions",
+                    "Identities of confidential sources, whistleblowers, or informants",
+                    "Economic and geopolitical strategies of nations prior to public announcement"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available policy documents, laws, and regulations",
+                    "Statistical aggregates and anonymized demographic or economic trends",
+                    "General policy goals and objectives",
+                    "Public meeting agendas and minutes (once approved for release)",
+                    "Official public statements and press releases",
+                    "Historical policy precedents and publicly known international agreements",
+                    "Aggregate public opinion poll results (without individual responses)"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of classified or pre-decisional information, impacting national security or diplomatic relations",
+                    "Misuse or manipulation of sensitive data to influence policy outcomes unfairly",
+                    "Erosion of public or international trust due to breaches of confidentiality",
+                    "Potential for discriminatory or harmful policies if sensitive citizen data is not handled ethically and securely",
+                    "Challenges in data sovereignty and cross-border data sharing agreements",
+                    "Cyber espionage and the security of digital communication channels used for policy negotiations"
+                ],
+                "summary": "Privacy in the policy domain is about protecting national security, diplomatic confidentiality, and the personal data of citizens, balanced with the need for transparent governance. It ensures that strategic government plans, sensitive negotiation positions, and identifiable citizen information are shielded from unauthorized disclosure, manipulation, and misuse, thereby fostering trust and stability in governance and international relations."
+            },
+            {
+                "sensitive_data": [
+                    "Negotiating party's strategic bottom lines and fallback positions",
+                    "Internal policy draft iterations and proposed compromises",
+                    "Confidential impact assessments (economic, social, environmental) not yet publicly released",
+                    "Proprietary polling data or detailed public sentiment analysis commissioned by a party",
+                    "Details of specific budget allocations or funding commitments before public announcement",
+                    "Transcripts or recordings of private, off-the-record discussions between negotiators",
+                    "Voter or constituent data used for targeted policy development",
+                    "Confidential legal advice pertaining to policy implications or risks"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available legislative texts, regulations, and treaties",
+                    "High-level policy goals and publicly stated objectives",
+                    "Historical policy outcomes, voting records, and publicly archived debates",
+                    "Official press releases, public statements, and published white papers",
+                    "General demographic and economic statistics from public sources",
+                    "Schedules and agendas for public hearings or open meetings",
+                    "Contact information for public officials and authorized spokespersons",
+                    "Academic research or widely published expert analyses presented as evidence"
+                ],
+                "key_concerns": [
+                    "Loss of strategic advantage through information leakage",
+                    "Public backlash and erosion of trust due to premature disclosure of compromises or internal disagreements",
+                    "Market volatility or unfair advantage stemming from leaked pre-decisional policy details",
+                    "Undue influence by external actors exploiting known vulnerabilities or internal divisions",
+                    "Compromise of national security or sovereignty in international policy negotiations"
+                ],
+                "summary": "In the policy domain, privacy centers on protecting the strategic insights, internal deliberations, and pre-decisional elements of policy development and negotiation. Its purpose is to ensure parties can negotiate effectively without their leverage being undermined, while also managing political fallout and maintaining public confidence in the integrity of the policy-making process."
+            },
+            {
+                "sensitive_data": [
+                    "Strategic negotiating positions and red lines",
+                    "Internal policy analyses, economic impact assessments, and legal advice (prior to public release)",
+                    "Confidential intelligence information or security assessments",
+                    "Proprietary corporate data (e.g., R&D plans, cost structures, market share) shared by private entities",
+                    "Personally Identifiable Information (PII) or Protected Health Information (PHI) of individuals or groups affected by a policy",
+                    "Unpublished polling data or internal political strategy",
+                    "Draft legislative text or international treaty provisions before public release",
+                    "Sensitive diplomatic communications and internal government deliberations",
+                    "Vulnerability assessments of critical infrastructure or social systems"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available policy documents, existing laws, and regulations",
+                    "General policy goals, objectives, and high-level principles",
+                    "Common statistical data, demographic information, and published scientific reports",
+                    "Publicly reported outcomes or evaluations of past policies",
+                    "Lists of general stakeholders or participating organizations",
+                    "Public meeting schedules and agendas",
+                    "Summaries of agreed-upon policy principles post-negotiation",
+                    "Broad statements of intent or aspirational declarations"
+                ],
+                "key_concerns": [
+                    "Leakage of strategic negotiating positions, compromising leverage",
+                    "Misuse or unauthorized disclosure of PII/PHI, leading to privacy violations or discrimination",
+                    "Economic espionage or competitive disadvantage through proprietary data theft",
+                    "Undermining public trust and legitimacy if policy decisions are perceived as being based on hidden or undisclosed information",
+                    "Chilling effect on stakeholder participation if shared feedback or data is not adequately protected",
+                    "Impact on national security or diplomatic relations from unauthorized disclosure of sensitive information",
+                    "Potential for political manipulation or targeting based on internal polling or strategic data"
+                ],
+                "summary": "Privacy in policy negotiations centers on safeguarding the strategic interests of states, organizations, and corporations, alongside protecting the personal data of citizens or vulnerable populations impacted by new policies. It balances the imperative for governmental transparency and public scrutiny with the need to maintain confidentiality for national security, commercial competitiveness, and individual rights."
+            },
+            {
+                "sensitive_data": [
+                    "Negotiating red lines and bottom lines",
+                    "Internal strategic objectives and priorities of a party",
+                    "Early draft policy language and proposals (pre-public release)",
+                    "Confidential legal opinions regarding policy proposals",
+                    "Detailed impact assessments revealing proprietary data or individual-level information",
+                    "Internal polling data or private public opinion research",
+                    "Financial concessions a party is willing to make",
+                    "Specific intelligence assessments related to policy context",
+                    "Personal data of individuals or specific groups targeted/affected by policy",
+                    "Proprietary data from corporations or NGOs shared in confidence during consultations",
+                    "Tactical information about political leverage or alliances"
+                ],
+                "non_sensitive_data": [
+                    "Existing laws, regulations, and statutes",
+                    "Publicly declared policy goals and objectives",
+                    "General principles and values underpinning policies",
+                    "Officially released public statistics and reports (aggregated, non-identifying)",
+                    "Names of official negotiating parties and their publicly known affiliations",
+                    "Published academic research and general expert opinions",
+                    "Procedural rules for negotiations",
+                    "Statements made in public forums or press conferences",
+                    "High-level summaries of policy outcomes (post-agreement)"
+                ],
+                "key_concerns": [
+                    "Compromising negotiating positions and strategic advantage for a party",
+                    "Undermining public trust and political legitimacy through selective leaks",
+                    "Premature public backlash to unrefined or sensitive policy proposals",
+                    "Risk of political manipulation or disinformation campaigns based on leaked information",
+                    "Breach of confidentiality agreements between negotiating parties",
+                    "Protection of personal data of citizens affected by the policy outcomes",
+                    "Chilling effect on open discussion and consensus-building among negotiators",
+                    "National security implications in specific policy domains (e.g., defense, foreign policy)"
+                ],
+                "summary": "In policy negotiations, privacy primarily means safeguarding internal deliberations, strategic positions, and confidential data exchanged between parties to facilitate effective, unencumbered policy development. It also encompasses the protection of personal and proprietary information used in analysis or directly affected by policy outcomes, ensuring trust and preventing undue external influence or misuse."
+            },
+            {
+                "sensitive_data": [
+                    "Classified national security intelligence",
+                    "Confidential diplomatic strategies, red lines, and fallback positions",
+                    "Internal government deliberations, unreleased policy drafts, and agency positions",
+                    "Pre-release economic indicators or proprietary industry data shared under NDA for policy impact assessments",
+                    "Specific budget allocations before public announcement",
+                    "Detailed political polling data not intended for public release",
+                    "Identifiable personal data collected for policy analysis (e.g., health records, financial data of specific individuals/groups)",
+                    "Identities of confidential informants, whistleblowers, or sensitive sources",
+                    "Proprietary lobbying strategies and detailed donor lists",
+                    "Trade secrets or intellectual property shared in confidence related to regulatory impact"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available laws, regulations, and statutes",
+                    "General economic statistics and published reports",
+                    "Officially released public policy proposals and white papers",
+                    "Broad demographic trends and aggregate statistics (non-identifiable)",
+                    "Historical legislative precedents and past policy outcomes",
+                    "High-level policy goals and objectives (e.g., 'improve public health')",
+                    "Public statements by elected officials and government spokespersons",
+                    "Academic research, think tank reports, and publicly available expert opinions",
+                    "Names of publicly representing negotiating parties and their organizations",
+                    "Known public concerns and general stakeholder feedback"
+                ],
+                "key_concerns": [
+                    "National security risks from unauthorized disclosure of classified information",
+                    "Erosion of public trust and transparency issues if negotiations are seen as opaque or corrupted",
+                    "Market manipulation or economic instability due to premature leaks of policy changes",
+                    "Maintaining diplomatic relations and international stability during complex negotiations",
+                    "Political exploitation or strategic leaking of information for partisan advantage",
+                    "Protection of personal data of citizens affected by or involved in policy implementation",
+                    "Ensuring fairness and preventing undue influence from special interest groups",
+                    "Maintaining the integrity of the policy-making process itself",
+                    "Preventing the misuse of sensitive information for private gain"
+                ],
+                "summary": "Privacy in policy negotiations primarily involves safeguarding the confidentiality of strategic positions, classified information, and internal deliberative processes to facilitate effective governance and diplomacy. It balances the need for discretion to achieve consensus with the imperatives of transparency, public accountability, and protecting sensitive national or individual interests from undue exposure or misuse. The goal is to ensure information isn't exploited for political or economic gain and to protect the privacy of citizens affected by policy outcomes."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Strategic negotiating positions, red lines, and internal policy deliberations (drafts, analyses, proposals, compromises, strategic objectives)",
+                "Classified national security intelligence and security assessments",
+                "Personally Identifiable Information (PII), including health, financial, or demographic data of citizens, stakeholders, or constituents",
+                "Proprietary commercial, industry, or corporate data, trade secrets, and pre-release economic indicators",
+                "Internal or unpublished polling data and detailed public sentiment analysis",
+                "Specific budget allocations and financial commitments prior to public announcement",
+                "Confidential legal advice or opinions related to policy",
+                "Identities of confidential sources, whistleblowers, or informants"
+            ],
+            "non_sensitive_data": [
+                "Publicly available laws, regulations, statutes, treaties, and official policy documents (e.g., white papers, legislative texts, historical precedents, outcomes)",
+                "General policy goals, objectives, high-level principles, and publicly stated intentions",
+                "Aggregated, anonymized, or publicly released statistical data (demographic, economic, public opinion) and scientific reports",
+                "Official public statements, press releases, and communications by government officials or spokespersons",
+                "Public meeting schedules, agendas, and approved minutes",
+                "Published academic research, expert opinions, and think tank reports"
+            ],
+            "key_concerns": [
+                "Unauthorized disclosure or leakage of strategic, classified, or pre-decisional information, leading to loss of strategic advantage, diplomatic impact, or premature public backlash",
+                "Erosion of public trust and legitimacy due to breaches of confidentiality, opaque processes, or perceived unfairness",
+                "Misuse, manipulation, or political exploitation of sensitive data for unfair influence, private gain, or to create disinformation",
+                "Impact on national security, sovereignty, or diplomatic relations due to compromised sensitive information",
+                "Misuse, unauthorized disclosure, or lack of protection for Personally Identifiable Information (PII) of citizens, leading to privacy violations or discrimination",
+                "Market volatility, economic instability, or unfair competitive advantage from leaked pre-decisional economic or proprietary information",
+                "Chilling effect on open discussion, stakeholder participation, or the overall integrity of the policy-making process"
+            ],
+            "summary": "Privacy in the policy domain is fundamentally about safeguarding strategic interests, internal deliberations, and classified information to enable effective governance, diplomacy, and unencumbered policy development. It necessitates protecting Personally Identifiable Information (PII) of citizens and proprietary data shared in confidence, preventing misuse, manipulation, or undue influence. This balance ensures trust and legitimacy in the policy-making process, reconciling the need for confidentiality with the imperatives of transparency and public accountability. Ultimately, it aims to prevent exploitation for political or economic gain and mitigate risks to national security, diplomatic relations, and individual rights."
+        }
+    },
+    "Medical": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Protected Health Information (PHI) including patient diagnoses, treatment plans, medical histories, billing details, and personal identifiers (HIPAA, GDPR compliant)",
+                    "Proprietary drug formulations, clinical trial data (unaggregated or before public release), and intellectual property related to medical devices or therapies",
+                    "Negotiated contract terms, specific pricing, discount rates, and reimbursement schedules between providers, insurers, and pharmaceutical companies",
+                    "Internal financial performance data of healthcare organizations (e.g., specific revenue, profit margins, cost structures)",
+                    "Strategic business plans, market share data, and competitive strategies of healthcare entities",
+                    "Individual provider salaries, compensation models, and performance metrics",
+                    "Source code or proprietary algorithms for medical software and AI applications",
+                    "Detailed supply chain agreements and inventory levels of critical medical supplies"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available drug list prices (AWP, WAC, etc.)",
+                    "General specifications and features of medical devices or equipment",
+                    "Accreditation status, licensure, and general regulatory compliance of healthcare facilities",
+                    "Professional credentials, specializations, and certifications of physicians and other healthcare providers (publicly verifiable)",
+                    "General healthcare industry trends, aggregated non-identifiable statistics, and published research",
+                    "High-level organizational structure and public contact information for healthcare entities",
+                    "Standard contract clauses that do not reveal sensitive financial or proprietary information",
+                    "Public health advisories and general disease prevalence data (non-identifiable)"
+                ],
+                "key_concerns": [
+                    "Strict adherence to health privacy regulations (e.g., HIPAA in the US, GDPR in the EU) to protect PHI",
+                    "Risk of data breaches exposing sensitive patient information or proprietary business intelligence",
+                    "Maintaining patient trust and ethical obligations regarding data handling and disclosure",
+                    "Preventing competitive intelligence from being gained through negotiation of financial terms or strategic data",
+                    "Ensuring secure data exchange mechanisms during negotiations to prevent unauthorized access or re-identification",
+                    "Protection of intellectual property and trade secrets, especially in pharmaceutical and medical device development"
+                ],
+                "summary": "Privacy in the medical domain primarily means safeguarding Protected Health Information (PHI) in compliance with stringent regulations like HIPAA or GDPR, ensuring patient confidentiality and trust. It also encompasses protecting proprietary research, financial specifics, and strategic information exchanged during negotiations to maintain competitive advantage and institutional integrity. Balancing data utility with stringent confidentiality requirements is a core challenge."
+            },
+            {
+                "sensitive_data": [
+                    "Patient Health Information (PHI): medical records, diagnoses, treatment plans, medication history, genetic data, mental health records, billing details, insurance information",
+                    "Proprietary research data, clinical trial results (pre-publication/approval), drug formulas, medical device schematics, and intellectual property",
+                    "Negotiated contract rates with insurers, suppliers, and third-party payers",
+                    "Detailed financial performance data of healthcare organizations (e.g., specific profit margins per service line, cost structures)",
+                    "Strategic acquisition targets, merger terms, and due diligence findings related to healthcare entities",
+                    "Provider credentialing data, disciplinary actions, and malpractice history",
+                    "Employee Personally Identifiable Information (PII) and specific salary scales for staff involved in negotiations"
+                ],
+                "non_sensitive_data": [
+                    "General healthcare industry trends and market statistics",
+                    "Publicly available information about healthcare organizations (e.g., number of beds, general services offered, accreditations)",
+                    "Standard product catalogs, general equipment specifications, and publicly listed service prices (chargemaster)",
+                    "General regulatory requirements and compliance standards (e.g., FDA approvals for widely available drugs/devices)",
+                    "Anonymized, aggregated public health data",
+                    "Names and titles of leadership personnel and public board members"
+                ],
+                "key_concerns": [
+                    "HIPAA compliance and adherence to other relevant health data privacy regulations (e.g., GDPR, state-specific laws)",
+                    "Risk of data breaches involving PHI, leading to legal penalties, reputational damage, and loss of patient trust",
+                    "Challenges in de-identifying data effectively for sharing while preventing re-identification",
+                    "Ethical implications of using patient data for research, AI development, or commercial purposes",
+                    "Protecting proprietary clinical, research, and business strategies from competitive intelligence",
+                    "Ensuring robust data privacy and security clauses in all negotiation and contractual agreements"
+                ],
+                "summary": "Privacy in the medical negotiation context entails the stringent protection of Patient Health Information (PHI) and sensitive proprietary data like research findings and specific financial terms. This is crucial for maintaining patient trust, ensuring compliance with strict regulatory frameworks, and safeguarding intellectual property and competitive advantages against misuse."
+            },
+            {
+                "sensitive_data": [
+                    "Patient Protected Health Information (PHI) including medical records, diagnoses, treatment plans, billing information, and insurance details linked to individuals",
+                    "Proprietary drug formulations, research and development (R&D) data, and unpublished clinical trial results",
+                    "Specific vendor contract terms, negotiated drug purchase prices, and equipment discounts",
+                    "Detailed cost structures for medical procedures, services, and operational expenses",
+                    "Specific payer reimbursement rates negotiated with individual insurers",
+                    "Strategic market entry, expansion plans, and competitive intelligence",
+                    "Intellectual Property details, including patent applications, trade secrets, and proprietary algorithms",
+                    "Internal audit findings related to compliance, quality issues, or cybersecurity vulnerabilities",
+                    "Sensitive financial performance data, such as detailed profit margins for specific service lines or products"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available company financial reports (for publicly traded entities)",
+                    "General product catalogs, service offerings, and high-level marketing materials",
+                    "Publicly announced regulatory approvals (e.g., FDA, CE Mark) for drugs or devices",
+                    "Published research papers, clinical trial summaries, and scientific findings available in the public domain",
+                    "General facility information such as number of beds, types of departments, and overall accreditation status",
+                    "High-level, anonymized aggregate patient demographics or disease statistics (without re-identification risk)",
+                    "Industry average pricing benchmarks for common services or equipment (non-entity-specific)",
+                    "Publicly available industry regulations, guidelines, and compliance standards"
+                ],
+                "key_concerns": [
+                    "HIPAA (Health Insurance Portability and Accountability Act) violations and associated legal penalties",
+                    "Breach or unauthorized disclosure of patient Protected Health Information (PHI)",
+                    "Loss of intellectual property, trade secrets, or proprietary R&D data",
+                    "Reputational damage and erosion of patient, partner, and public trust",
+                    "Financial penalties, lawsuits, and legal liabilities stemming from data breaches or non-compliance",
+                    "Competitive disadvantage resulting from leaked strategic business plans or financial data",
+                    "Misuse of sensitive data for anti-competitive practices or market manipulation"
+                ],
+                "summary": "Privacy in medical negotiation scenarios primarily means rigorously protecting patient Protected Health Information (PHI) as mandated by regulations like HIPAA, alongside safeguarding proprietary business intelligence and research data. It's about maintaining trust, ensuring regulatory compliance, and preventing competitive harm through the careful handling of highly sensitive institutional and individual data."
+            },
+            {
+                "sensitive_data": [
+                    "Patient Health Information (PHI) and Protected Health Information (e.g., medical records, diagnoses, treatment plans, billing information)",
+                    "Proprietary drug formulations, device designs, or software algorithms",
+                    "Pre-market clinical trial results and raw research data",
+                    "Negotiated discount rates, reimbursement schedules, and capitation rates between providers and payers",
+                    "Individual physician compensation details and performance metrics",
+                    "Strategic business plans, merger and acquisition details, and market expansion strategies for healthcare organizations",
+                    "Detailed financial performance, profit margins, and cost structures of medical practices or institutions",
+                    "Intellectual property details related to new medical technologies or treatments before patenting",
+                    "Malpractice claim history or disciplinary actions against individual practitioners or institutions",
+                    "Provider network contracts and specific terms with individual practitioners or facilities"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available market trends and industry statistics for the healthcare sector",
+                    "General regulatory requirements (e.g., FDA approval processes, HIPAA regulations in general terms)",
+                    "Published research findings and widely disseminated medical literature",
+                    "Overall service offerings of a healthcare provider or payer (e.g., 'we offer cardiology services')",
+                    "Accreditation status of hospitals or clinics (e.g., Joint Commission accreditation)",
+                    "General demographic data not linked to identifiable individuals",
+                    "Standardized industry-wide pricing lists (not negotiated rates)",
+                    "Publicly announced corporate partnerships or general strategic alliances without specific financial terms",
+                    "General company information like name, address, and publicly traded stock prices",
+                    "Commonly accepted medical guidelines and best practices"
+                ],
+                "key_concerns": [
+                    "Strict compliance with HIPAA and other privacy regulations (e.g., GDPR, state-specific laws) for any patient-related data.",
+                    "Protection of proprietary information, trade secrets, and intellectual property to maintain competitive advantage.",
+                    "Prevention of anti-competitive practices or collusion through the disclosure of sensitive pricing or strategic data.",
+                    "Maintaining trust and reputation by ensuring the confidentiality of patient, research, and business information.",
+                    "Ethical considerations related to data use, especially in research or patient care contexts."
+                ],
+                "summary": "Privacy in medical negotiation scenarios primarily revolves around the stringent protection of Patient Health Information (PHI) and safeguarding proprietary clinical or business intelligence. It necessitates robust compliance with regulations like HIPAA while balancing information exchange for agreements against the imperative to prevent competitive harm or ethical breaches."
+            },
+            {
+                "sensitive_data": [
+                    "Protected Health Information (PHI) including patient medical records, diagnoses, treatment plans, and billing data",
+                    "Proprietary research data, including unpublished clinical trial results, drug formulations, or device specifications",
+                    "Specific negotiated reimbursement rates between payers and providers",
+                    "Detailed cost structures for medical procedures, drugs, or devices",
+                    "Strategic business plans, market expansion strategies, or acquisition targets",
+                    "Employee compensation data, particularly for key medical staff or executives",
+                    "Financial performance metrics such as profit margins or specific revenue streams by service line",
+                    "Intellectual property, including patent applications or trade secrets related to medical innovations"
+                ],
+                "non_sensitive_data": [
+                    "De-identified, aggregate patient demographic and outcome statistics",
+                    "General market trends and publicly available healthcare industry reports",
+                    "Standardized contract terms or boilerplate legal clauses (unless revealing specific financial or strategic details)",
+                    "Published research findings or publicly available clinical guidelines",
+                    "Accreditation status of healthcare facilities or general service offerings",
+                    "Public health data (e.g., prevalence rates of diseases, general vaccination statistics)",
+                    "Average industry-wide reimbursement benchmarks (non-specific to entity contracts)"
+                ],
+                "key_concerns": [
+                    "HIPAA compliance and other regional health data privacy regulations (e.g., GDPR)",
+                    "Risk of data breaches exposing patient health information, leading to legal penalties and reputational damage",
+                    "Protection of proprietary financial data that could harm competitive positioning",
+                    "Safeguarding intellectual property crucial for medical innovation and market advantage",
+                    "Maintaining patient trust and ethical standards regarding data handling",
+                    "Ensuring data de-identification methods are robust to prevent re-identification of individuals",
+                    "Compliance with research ethics boards and informed consent requirements for data use"
+                ],
+                "summary": "Privacy in medical negotiations centers on strictly protecting patient health information (PHI) under stringent regulations like HIPAA, which is paramount for maintaining patient trust and avoiding severe legal repercussions. It also critically involves safeguarding proprietary business, financial, and research data, as disclosure could lead to significant competitive harm or loss of intellectual property. The challenge lies in balancing necessary information exchange for negotiation with the absolute imperative to protect highly sensitive patient and business data."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Protected Health Information (PHI), including patient diagnoses, treatment plans, medical histories, medication history, genetic data, mental health records, billing details, insurance information, and personal identifiers.",
+                "Proprietary research and development (R&D) data, including unpublished clinical trial results, drug formulations, medical device designs, software algorithms, and related intellectual property (e.g., patent applications, trade secrets).",
+                "Specific negotiated contract terms, pricing, discount rates, reimbursement schedules, and detailed cost structures between providers, insurers, suppliers, or other third parties.",
+                "Detailed financial performance data of healthcare organizations, including specific profit margins per service line, cost structures for procedures, and revenue streams.",
+                "Strategic business plans, market expansion strategies, competitive intelligence, and merger/acquisition details.",
+                "Individual provider compensation, salaries, performance metrics, malpractice history, or disciplinary actions."
+            ],
+            "non_sensitive_data": [
+                "General specifications, features, and standard product catalogs of medical devices or equipment.",
+                "Accreditation status, licensure, general regulatory compliance, and public contact information for healthcare facilities and organizations.",
+                "General healthcare industry trends, aggregated non-identifiable statistics, and published research or scientific findings.",
+                "Public health advisories and general, anonymized disease prevalence data."
+            ],
+            "key_concerns": [
+                "Strict adherence to health privacy regulations (e.g., HIPAA, GDPR, state-specific laws) to protect Protected Health Information (PHI).",
+                "Risk of data breaches exposing sensitive patient information or proprietary business and research intelligence.",
+                "Maintaining patient trust, ethical obligations, and institutional reputation regarding data handling, disclosure, and use.",
+                "Protection of intellectual property, trade secrets, and strategic business information to prevent competitive disadvantage or misuse.",
+                "Financial penalties, lawsuits, and legal liabilities stemming from data breaches or non-compliance.",
+                "Ensuring robust data security measures and effective de-identification to prevent unauthorized access or re-identification."
+            ],
+            "summary": "Privacy in the medical domain is fundamentally about the stringent protection of Protected Health Information (PHI) in compliance with regulations like HIPAA and GDPR. It also critically involves safeguarding proprietary research, clinical, financial, and strategic business data to maintain competitive advantage and intellectual property. Key concerns include preventing data breaches, ensuring robust de-identification, and upholding patient trust and ethical standards in data handling. The overarching challenge is to balance the necessary exchange of information for collaboration and negotiation with the absolute imperative for confidentiality and regulatory compliance."
+        }
+    },
+    "Human resources": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Current and desired salary or compensation figures (including base, bonus, equity)",
+                    "Individual benefits package details (e.g., specific health plan choices, retirement contributions)",
+                    "Performance review data or disciplinary records",
+                    "Reasons for leaving previous employment (especially if personal, medical, or related to disputes)",
+                    "Medical information, disability status, or accommodation requests",
+                    "Results of background checks, credit checks, or drug screenings",
+                    "Proprietary compensation structures, salary bands, or internal negotiation guidelines",
+                    "Personal financial information (e.g., for relocation assistance, stock options)",
+                    "Details of legal claims or disputes involving the candidate or employer",
+                    "Confidential information from previous employers (e.g., non-compete clauses, trade secrets)"
+                ],
+                "non_sensitive_data": [
+                    "Job title and department",
+                    "General role responsibilities and reporting structure",
+                    "Standard company benefits overview (non-individualized)",
+                    "General company policies (e.g., standard PTO, holiday schedule)",
+                    "Start date and employment type (full-time, part-time)",
+                    "Publicly available information about the candidate or company (e.g., LinkedIn profile, company website)",
+                    "General industry salary benchmarks or market rates (non-company specific)",
+                    "Office location or remote work policy",
+                    "Team size and composition"
+                ],
+                "key_concerns": [
+                    "Risk of discrimination or bias in negotiation based on protected characteristics",
+                    "Unauthorized disclosure of individual compensation or personal information",
+                    "Compliance with labor laws, data protection regulations (e.g., GDPR, CCPA, HIPAA for health data)",
+                    "Maintaining employee trust and employer reputation",
+                    "Ensuring fairness and equity across all negotiation outcomes",
+                    "Data security against breaches and insider threats",
+                    "Misuse of performance or disciplinary history to disadvantage candidates/employees"
+                ],
+                "summary": "Privacy in HR negotiation scenarios focuses on safeguarding highly personal data such as compensation, health status, and performance history from unauthorized access or discriminatory use. It aims to ensure fair and equitable negotiation outcomes, protecting individuals' rights while adhering to stringent labor and data protection regulations. The core goal is to build trust and maintain confidentiality throughout the employment lifecycle."
+            },
+            {
+                "sensitive_data": [
+                    "Individual compensation history (salary, bonuses, equity, benefits elections)",
+                    "Specific details of performance reviews (e.g., criticisms, performance improvement plans)",
+                    "Personal health information or disability status (when relevant to accommodation or leave requests)",
+                    "Reasons for termination or resignation (especially if personal or sensitive)",
+                    "Results of background checks (e.g., criminal history, credit reports)",
+                    "Records of disciplinary actions or grievances",
+                    "Family circumstances or personal hardship details disclosed during negotiation",
+                    "Proprietary company information or trade secrets an employee possesses",
+                    "Details of legal disputes involving the employee or company",
+                    "Diversity, Equity, and Inclusion (DEI) self-identification data (e.g., race, gender, sexual orientation)"
+                ],
+                "non_sensitive_data": [
+                    "Job title and general role description",
+                    "Standard company policies (e.g., general PTO, holiday schedule, dress code)",
+                    "Expected start or end date of employment",
+                    "Primary work location",
+                    "Reporting structure within the organization",
+                    "General industry salary benchmarks (non-individual specific)",
+                    "Basic job requirements and qualifications",
+                    "Public-facing company mission or values"
+                ],
+                "key_concerns": [
+                    "Compliance with various labor and data privacy laws (e.g., GDPR, CCPA, HIPAA, ADA, state-specific regulations)",
+                    "Risk of bias and discrimination based on sensitive personal data in negotiation outcomes",
+                    "Maintaining employee trust and preserving the company's reputation",
+                    "Protecting against data breaches and unauthorized access to employee information",
+                    "Misuse of sensitive information for purposes beyond legitimate HR functions",
+                    "Ensuring fairness and equity in negotiation processes and outcomes",
+                    "Preventing internal or external leaks of confidential individual data"
+                ],
+                "summary": "Privacy in HR negotiations safeguards an individual's personal and professional information, such as compensation, health, and performance details, from unauthorized disclosure or misuse during discussions about employment terms. It ensures legal compliance, fosters trust, and maintains fairness by restricting access to sensitive data only to those with a legitimate need-to-know, while respecting individual confidentiality."
+            },
+            {
+                "sensitive_data": [
+                    "Individual salary history and current compensation details",
+                    "Performance review specifics, ratings, and detailed feedback",
+                    "Medical conditions, disability status, and accommodation requests",
+                    "Personal financial information (e.g., credit checks, specific benefit elections)",
+                    "Disciplinary records, warnings, and details of investigations",
+                    "Confidential terms of severance packages and reasons for departure (if sensitive)",
+                    "Proprietary company financial data or strategic plans shared during executive compensation negotiations",
+                    "Union bargaining positions, specific demands, and internal financial constraints discussed during collective bargaining",
+                    "Details of discrimination or harassment complaints and investigations",
+                    "Background check results (e.g., criminal history, driving records)",
+                    "Specific intellectual property assignments or non-compete clauses",
+                    "Internal audit findings related to an individual's performance or conduct"
+                ],
+                "non_sensitive_data": [
+                    "Job title and general responsibilities",
+                    "General company policies and procedures (publicly available)",
+                    "Publicly known industry salary benchmarks (not individual specific)",
+                    "Company name and location",
+                    "Standard employment contract templates (without personal identifiers)",
+                    "High-level benefits program descriptions (without individual election details)",
+                    "Educational background (degrees, institutions) and professional certifications",
+                    "Years of experience in a given field",
+                    "General team structure and reporting lines",
+                    "Publicly announced company news or financial reports"
+                ],
+                "key_concerns": [
+                    "Compliance with strict labor laws and data protection regulations (e.g., GDPR, CCPA, HIPAA, ADA, FMLA)",
+                    "Risk of discrimination based on protected characteristics (e.g., age, gender, race, disability, medical status)",
+                    "Maintaining confidentiality of highly personal employee data to prevent reputational damage for individuals and the company",
+                    "Ensuring fairness and equity in negotiation outcomes, especially regarding compensation, promotions, and termination terms",
+                    "Preventing unauthorized access or disclosure of PII (Personally Identifiable Information) and sensitive employee records",
+                    "Legal liability arising from mishandling sensitive data, unfair labor practices, or wrongful termination claims"
+                ],
+                "summary": "Privacy in Human Resources negotiation scenarios centers on safeguarding highly personal employee data, encompassing compensation, performance, health, and disciplinary records. It's imperative to comply with stringent labor laws and data protection regulations to prevent discrimination, maintain trust, and mitigate significant legal risks. The core challenge is to balance transparency and fairness with the critical need for confidentiality to ensure equitable outcomes."
+            },
+            {
+                "sensitive_data": [
+                    "Individual compensation history (current salary, bonus structures, equity grants)",
+                    "Desired salary or compensation expectations",
+                    "Specific performance review outcomes and detailed feedback",
+                    "Medical information, disability status, and accommodation requests (e.g., FMLA, ADA)",
+                    "Disciplinary records, investigations, and grievance details",
+                    "Reasons for past employment separation (especially if adverse or sensitive)",
+                    "Proprietary company information or trade secrets learned by an employee",
+                    "Individualized diversity, equity, and inclusion data (e.g., specific requests related to protected characteristics)",
+                    "Legal advice pertaining to specific employee situations"
+                ],
+                "non_sensitive_data": [
+                    "General job descriptions and role responsibilities",
+                    "Company-wide policies (e.g., general PTO policy, standard benefits package descriptions, code of conduct)",
+                    "Organizational structure and reporting lines",
+                    "Industry standard salary benchmarks (not company-specific or individual)",
+                    "Company mission, values, and culture statements",
+                    "Publicly available company information (e.g., market position, general revenue figures)",
+                    "Standard offer letter templates (non-individualized general terms like start date ranges, at-will employment statements)"
+                ],
+                "key_concerns": [
+                    "Compliance with various labor laws (e.g., Title VII, ADA, FMLA, FLSA, pay equity laws)",
+                    "Adherence to data privacy regulations (e.g., GDPR, CCPA, state-specific privacy laws)",
+                    "Risk of discrimination or unconscious bias influencing negotiation outcomes",
+                    "Confidentiality breaches of sensitive employee or candidate data",
+                    "Maintaining trust and a positive employer brand during and after negotiations",
+                    "Ensuring robust data security for all sensitive HR records"
+                ],
+                "summary": "Privacy in Human Resources negotiation scenarios means safeguarding individual employee and candidate data, especially financial, health, and performance-related details, to prevent discrimination, ensure fair treatment, and comply with strict labor and data protection laws. It emphasizes maintaining confidentiality and trust while ethically navigating discussions around employment terms, conditions, or grievances."
+            }
+        ]
+    }
+}
