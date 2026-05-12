@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Pipeline: for each domain category, generate 5 privacy definitions via Gemini,
+Pipeline: for each domain category, generate 3 privacy definitions,
 then aggregate them into a single synthesized definition.
 Output: privacy_definitions.json
 """
@@ -26,10 +26,16 @@ def _load_env(path: Path = Path(".env")) -> None:
 
 _load_env()
 
-API_KEY = os.environ.get("GEMINI_API_KEY", "")
-MODEL = "gemini-2.5-flash"
-ATTEMPTS = 5
-DELAY = 2  # seconds between calls to avoid rate limiting
+# --- Groq config ---
+API_KEY = os.environ.get("GROQ_API_KEY", "")
+MODEL = "llama-3.3-70b-versatile"
+
+# --- Gemini config (commented out for later use) ---
+# API_KEY = os.environ.get("GEMINI_API_KEY", "")
+# MODEL = "gemini-2.5-flash"
+
+ATTEMPTS = 3
+DELAY = 1  # seconds between calls
 OUTPUT_FILE = Path("privacy_definitions.json")
 CATEGORIES_FILE = Path("category_counts.json")
 
@@ -59,11 +65,11 @@ Return ONLY valid JSON in this exact shape:
 """
 
 AGGREGATION_SYSTEM_PROMPT = """\
-You are synthesizing five independently generated privacy analyses for the same \
+You are synthesizing three independently generated privacy analyses for the same \
 domain into a single definitive definition. Treat this like taking the mean: \
-surface the themes that appear consistently across all five, reconcile minor \
+surface the themes that appear consistently across all three, reconcile minor \
 disagreements by finding the common ground, and include anything that appeared \
-in at least three of the five analyses.
+in at least two of the three analyses.
 
 Do not just concatenate. Deduplicate, generalize, and synthesize.
 
@@ -78,25 +84,43 @@ Return ONLY valid JSON in this exact shape:
   "key_concerns": [
     "deduplicated, synthesized list of key privacy concerns"
   ],
-  "summary": "3-4 sentence synthesized definition capturing the consensus across all five analyses"
+  "summary": "3-4 sentence synthesized definition capturing the consensus across all three analyses"
 }
 """
 
 
-def call_gemini(system_prompt: str, user_prompt: str, retries: int = 4) -> dict:
-    url = (
-        f"https://generativelanguage.googleapis.com/v1beta/models/"
-        f"{MODEL}:generateContent?key={API_KEY}"
-    )
+def call_api(system_prompt: str, user_prompt: str, retries: int = 4) -> dict:
+    # --- Groq (OpenAI-compatible) ---
+    url = "https://api.groq.com/openai/v1/chat/completions"
     body = {
-        "system_instruction": {"parts": [{"text": system_prompt}]},
-        "contents": [{"parts": [{"text": user_prompt}]}],
-        "generationConfig": {"responseMimeType": "application/json"},
+        "model": MODEL,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        "response_format": {"type": "json_object"},
     }
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {API_KEY}",
+    }
+
+    # --- Gemini (commented out for later use) ---
+    # url = (
+    #     f"https://generativelanguage.googleapis.com/v1beta/models/"
+    #     f"{MODEL}:generateContent?key={API_KEY}"
+    # )
+    # body = {
+    #     "system_instruction": {"parts": [{"text": system_prompt}]},
+    #     "contents": [{"parts": [{"text": user_prompt}]}],
+    #     "generationConfig": {"responseMimeType": "application/json"},
+    # }
+    # headers = {"Content-Type": "application/json"}
+
     req = urllib.request.Request(
         url,
         data=json.dumps(body).encode(),
-        headers={"Content-Type": "application/json"},
+        headers=headers,
         method="POST",
     )
 
@@ -104,12 +128,17 @@ def call_gemini(system_prompt: str, user_prompt: str, retries: int = 4) -> dict:
         try:
             with urllib.request.urlopen(req, timeout=60) as resp:
                 result = json.loads(resp.read())
-            text = result["candidates"][0]["content"]["parts"][0]["text"]
+
+            # --- Groq response parsing ---
+            text = result["choices"][0]["message"]["content"]
+
+            # --- Gemini response parsing (commented out) ---
+            # text = result["candidates"][0]["content"]["parts"][0]["text"]
+
             return json.loads(text)
         except urllib.error.HTTPError as e:
             body_text = e.read().decode()
             if e.code == 429 and attempt < retries - 1:
-                # Parse retry delay from error if available, else exponential backoff
                 wait = 15 * (2 ** attempt)
                 print(f"\n    rate limited — waiting {wait}s...", end=" ", flush=True)
                 time.sleep(wait)
@@ -125,7 +154,7 @@ def generate_definition(category: str) -> dict:
         f"Analyze privacy and data sensitivity for negotiation scenarios in the "
         f"'{category}' domain."
     )
-    return call_gemini(GENERATION_SYSTEM_PROMPT, prompt)
+    return call_api(GENERATION_SYSTEM_PROMPT, prompt)
 
 
 def aggregate_definitions(category: str, raw: list[dict]) -> dict:
@@ -134,10 +163,10 @@ def aggregate_definitions(category: str, raw: list[dict]) -> dict:
     )
     prompt = (
         f"Domain: {category}\n\n"
-        f"Here are five independently generated privacy analyses for this domain. "
+        f"Here are three independently generated privacy analyses for this domain. "
         f"Synthesize them into a single definitive definition.\n\n{numbered}"
     )
-    return call_gemini(AGGREGATION_SYSTEM_PROMPT, prompt)
+    return call_api(AGGREGATION_SYSTEM_PROMPT, prompt)
 
 
 def load_output() -> dict:
@@ -154,7 +183,7 @@ def save_output(data: dict) -> None:
 
 def main() -> None:
     if not API_KEY:
-        print("Error: GEMINI_API_KEY is not set.")
+        print("Error: GROQ_API_KEY is not set.")
         return
 
     with open(CATEGORIES_FILE) as f:
@@ -168,7 +197,8 @@ def main() -> None:
         entry = output.get(category, {})
 
         # --- Generation phase ---
-        raw = entry.get("raw", [])
+        # Only use first 3 raw definitions for consistency
+        raw = entry.get("raw", [])[:ATTEMPTS]
         for attempt in range(len(raw), ATTEMPTS):
             print(f"  generating {attempt + 1}/{ATTEMPTS}...", end=" ", flush=True)
             try:
