@@ -1,0 +1,804 @@
+{
+    "categories": [
+        {
+            "filename": "timeline_1",
+            "category": "Product launch"
+        },
+        {
+            "filename": "medical_collaboration_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "policy_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "grants_1",
+            "category": "Research"
+        },
+        {
+            "filename": "conservation_2",
+            "category": "Environment"
+        },
+        {
+            "filename": "living_space_1",
+            "category": "Real estate"
+        },
+        {
+            "filename": "networking_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "resource_sharing_3",
+            "category": "Energy"
+        },
+        {
+            "filename": "team_building_2",
+            "category": "Policy"
+        },
+        {
+            "filename": "telemedicine_2",
+            "category": "Medical"
+        },
+        {
+            "filename": "allocation_2",
+            "category": "Technology"
+        },
+        {
+            "filename": "art_project_1",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "syndicate_3",
+            "category": "Real estate"
+        },
+        {
+            "filename": "carpooling_3",
+            "category": "Education"
+        },
+        {
+            "filename": "organ_donation_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "carbon_trading_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "clinical_trials_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "writing_3",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "salary_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "treaty_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "procurement_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "team_formation_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "patent_3",
+            "category": "Legal"
+        },
+        {
+            "filename": "cross_agency_1",
+            "category": "Military"
+        },
+        {
+            "filename": "cryptocurrency_3",
+            "category": "Finance"
+        },
+        {
+            "filename": "shipping_3",
+            "category": "Supply Chain"
+        },
+        {
+            "filename": "crowdfunding_3",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "shipping_2",
+            "category": "Transportation"
+        },
+        {
+            "filename": "cryptocurrency_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "collaboration_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "recruitment_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "patent_2",
+            "category": "Legal"
+        },
+        {
+            "filename": "salary_3",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "infrastructure_1",
+            "category": "Infrastructure"
+        },
+        {
+            "filename": "network_planning_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "allocation_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "syndicate_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "carpooling_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "dispute_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "arbitration_3",
+            "category": "Sports"
+        },
+        {
+            "filename": "urban_planning_1",
+            "category": "Urban Planning"
+        },
+        {
+            "filename": "auction_1",
+            "category": "Art"
+        },
+        {
+            "filename": "vacation_2",
+            "category": "Travel"
+        },
+        {
+            "filename": "resource_sharing_2",
+            "category": "Policy"
+        },
+        {
+            "filename": "hedge_fund_1",
+            "category": "Finance"
+        },
+        {
+            "filename": "conservation_3",
+            "category": "Environment"
+        },
+        {
+            "filename": "delivery_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "resource_1",
+            "category": "Research"
+        },
+        {
+            "filename": "transportation_1",
+            "category": "Transportation"
+        },
+        {
+            "filename": "roommates_1",
+            "category": "Real Estate"
+        },
+        {
+            "filename": "crowdsourced_innovation_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "restoration_1",
+            "category": "Environment"
+        },
+        {
+            "filename": "merger_1",
+            "category": "Finance"
+        },
+        {
+            "filename": "healthcare_scheduling_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "venture_capital_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "dating_2",
+            "category": "Legal"
+        },
+        {
+            "filename": "meetings_2",
+            "category": "Policy"
+        },
+        {
+            "filename": "settlement_3",
+            "category": "Legal"
+        },
+        {
+            "filename": "academic_1",
+            "category": "Education"
+        },
+        {
+            "filename": "gifting_3",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "conference_2",
+            "category": "Policy"
+        },
+        {
+            "filename": "medical_resource_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "performance_1",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "cloud_computing_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "music_film_1",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "shift_work_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "research_formation_2",
+            "category": "Research"
+        },
+        {
+            "filename": "stock_trading_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "research_resource_1",
+            "category": "Research"
+        },
+        {
+            "filename": "data_center_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "admissions_3",
+            "category": "Education"
+        },
+        {
+            "filename": "grant_1",
+            "category": "Research"
+        },
+        {
+            "filename": "mediation_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "supply_chain_2",
+            "category": "Supply Chain"
+        },
+        {
+            "filename": "inheritance_3",
+            "category": "Legal"
+        },
+        {
+            "filename": "conflict_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "intellectual_property_3",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "spectrum_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "real_estate_1",
+            "category": "Real Estate"
+        },
+        {
+            "filename": "supply_chain_3",
+            "category": "Supply Chain"
+        },
+        {
+            "filename": "admissions_2",
+            "category": "Education"
+        },
+        {
+            "filename": "seating_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "p2p_lending_1",
+            "category": "Finance"
+        },
+        {
+            "filename": "fleet_1",
+            "category": "Military"
+        },
+        {
+            "filename": "development_3",
+            "category": "Real Estate"
+        },
+        {
+            "filename": "routing_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "freelance_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "contract_1",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "conference_3",
+            "category": "Policy"
+        },
+        {
+            "filename": "gifting_2",
+            "category": "Supply Chain"
+        },
+        {
+            "filename": "skill_matching_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "job_market_1",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "ride_sharing_3",
+            "category": "Transportation"
+        },
+        {
+            "filename": "meetings_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "travel_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "dating_3",
+            "category": "Policy"
+        },
+        {
+            "filename": "music_film_3",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "cloud_computing_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "freelance_2",
+            "category": "Technology"
+        },
+        {
+            "filename": "medical_resource_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "career_development_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "gifting_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "academic_3",
+            "category": "Education"
+        },
+        {
+            "filename": "settlement_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "skill_matching_2",
+            "category": "Technology"
+        },
+        {
+            "filename": "job_market_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "research_1",
+            "category": "Research"
+        },
+        {
+            "filename": "telecom_3",
+            "category": "Telecommunications"
+        },
+        {
+            "filename": "spectrum_2",
+            "category": "Policy"
+        },
+        {
+            "filename": "conflict_3",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "admissions_1",
+            "category": "Education"
+        },
+        {
+            "filename": "seating_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "data_center_3",
+            "category": "Energy"
+        },
+        {
+            "filename": "p2p_lending_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "open_source_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "shift_work_3",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "fleet_2",
+            "category": "Transportation"
+        },
+        {
+            "filename": "development_1",
+            "category": "Real Estate"
+        },
+        {
+            "filename": "fleet_3",
+            "category": "Transportation"
+        },
+        {
+            "filename": "shift_work_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "open_source_2",
+            "category": "Technology"
+        },
+        {
+            "filename": "p2p_lending_3",
+            "category": "Finance"
+        },
+        {
+            "filename": "stock_trading_1",
+            "category": "Finance"
+        },
+        {
+            "filename": "research_formation_1",
+            "category": "Medical"
+        },
+        {
+            "filename": "grant_2",
+            "category": "Research"
+        },
+        {
+            "filename": "mediation_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "real_estate_3",
+            "category": "Real estate"
+        },
+        {
+            "filename": "telecom_2",
+            "category": "Technology"
+        },
+        {
+            "filename": "intellectual_property_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "dating_1",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "meetings_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "social_event_1",
+            "category": "Environment"
+        },
+        {
+            "filename": "skill_matching_3",
+            "category": "Military"
+        },
+        {
+            "filename": "job_market_3",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "career_development_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "conference_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "freelance_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "renewable_energy_1",
+            "category": "Energy"
+        },
+        {
+            "filename": "music_film_2",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "resource_sharing_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "hedge_fund_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "networking_3",
+            "category": "Policy"
+        },
+        {
+            "filename": "delivery_2",
+            "category": "Transportation"
+        },
+        {
+            "filename": "grants_3",
+            "category": "Research"
+        },
+        {
+            "filename": "transportation_2",
+            "category": "Transportation"
+        },
+        {
+            "filename": "resource_2",
+            "category": "Research"
+        },
+        {
+            "filename": "mentorship_1",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "crowdsourced_innovation_2",
+            "category": "Environment"
+        },
+        {
+            "filename": "medical_collaboration_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "restoration_2",
+            "category": "Environment"
+        },
+        {
+            "filename": "timeline_3",
+            "category": "Transportation"
+        },
+        {
+            "filename": "merger_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "calendar_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "healthcare_scheduling_2",
+            "category": "Medical"
+        },
+        {
+            "filename": "cryptocurrency_1",
+            "category": "Finance"
+        },
+        {
+            "filename": "cross_agency_3",
+            "category": "Policy"
+        },
+        {
+            "filename": "patent_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "recruitment_1",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "procurement_3",
+            "category": "Transportation"
+        },
+        {
+            "filename": "infrastructure_2",
+            "category": "Transportation"
+        },
+        {
+            "filename": "writing_1",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "clinical_trials_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "carbon_trading_3",
+            "category": "Environment"
+        },
+        {
+            "filename": "syndicate_1",
+            "category": "Finance"
+        },
+        {
+            "filename": "carpooling_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "art_project_3",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "dispute_2",
+            "category": "Legal"
+        },
+        {
+            "filename": "peer_review_3",
+            "category": "Energy"
+        },
+        {
+            "filename": "auction_2",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "vacation_1",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "student_advisor_1",
+            "category": "Research"
+        },
+        {
+            "filename": "urban_planning_3",
+            "category": "Real Estate"
+        },
+        {
+            "filename": "auction_3",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "arbitration_1",
+            "category": "Legal"
+        },
+        {
+            "filename": "dispute_3",
+            "category": "Policy"
+        },
+        {
+            "filename": "art_project_2",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "allocation_1",
+            "category": "Technology"
+        },
+        {
+            "filename": "academic_job_1",
+            "category": "Education"
+        },
+        {
+            "filename": "network_planning_1",
+            "category": "Policy"
+        },
+        {
+            "filename": "organ_donation_2",
+            "category": "Medical"
+        },
+        {
+            "filename": "clinical_trials_2",
+            "category": "Medical"
+        },
+        {
+            "filename": "carbon_trading_2",
+            "category": "Environment"
+        },
+        {
+            "filename": "infrastructure_3",
+            "category": "Transportation"
+        },
+        {
+            "filename": "treaty_2",
+            "category": "Policy"
+        },
+        {
+            "filename": "collaboration_3",
+            "category": "Energy"
+        },
+        {
+            "filename": "crowdfunding_1",
+            "category": "Entertainment"
+        },
+        {
+            "filename": "calendar_2",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "healthcare_scheduling_3",
+            "category": "Medical"
+        },
+        {
+            "filename": "merger_3",
+            "category": "Finance"
+        },
+        {
+            "filename": "medical_collaboration_2",
+            "category": "Medical"
+        },
+        {
+            "filename": "restoration_3",
+            "category": "Environment"
+        },
+        {
+            "filename": "crowdsourced_innovation_3",
+            "category": "Technology"
+        },
+        {
+            "filename": "policy_2",
+            "category": "Education"
+        },
+        {
+            "filename": "emergency_1",
+            "category": "Emergency Management"
+        },
+        {
+            "filename": "roommates_3",
+            "category": "Human Resources"
+        },
+        {
+            "filename": "transportation_3",
+            "category": "Transportation"
+        },
+        {
+            "filename": "resource_3",
+            "category": "Research"
+        },
+        {
+            "filename": "grants_2",
+            "category": "Finance"
+        },
+        {
+            "filename": "delivery_3",
+            "category": "Supply Chain"
+        },
+        {
+            "filename": "conservation_1",
+            "category": "Environment"
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "category": "Policy",
+        "count": 23
+    },
+    {
+        "category": "Medical",
+        "count": 21
+    },
+    {
+        "category": "Technology",
+        "count": 21
+    },
+    {
+        "category": "Human Resources",
+        "count": 20
+    },
+    {
+        "category": "Finance",
+        "count": 17
+    },
+    {
+        "category": "Entertainment",
+        "count": 15
+    },
+    {
+        "category": "Legal",
+        "count": 13
+    },
+    {
+        "category": "Transportation",
+        "count": 12
+    },
+    {
+        "category": "Research",
+        "count": 11
+    },
+    {
+        "category": "Environment",
+        "count": 10
+    },
+    {
+        "category": "Education",
+        "count": 8
+    },
+    {
+        "category": "Energy",
+        "count": 5
+    },
+    {
+        "category": "Supply Chain",
+        "count": 5
+    },
+    {
+        "category": "Real Estate",
+        "count": 5
+    },
+    {
+        "category": "Real estate",
+        "count": 3
+    },
+    {
+        "category": "Military",
+        "count": 3
+    },
+    {
+        "category": "Product launch",
+        "count": 1
+    },
+    {
+        "category": "Infrastructure",
+        "count": 1
+    },
+    {
+        "category": "Sports",
+        "count": 1
+    },
+    {
+        "category": "Urban Planning",
+        "count": 1
+    },
+    {
+        "category": "Art",
+        "count": 1
+    },
+    {
+        "category": "Travel",
+        "count": 1
+    },
+    {
+        "category": "Telecommunications",
+        "count": 1
+    },
+    {
+        "category": "Emergency Management",
+        "count": 1
+    }
+]
