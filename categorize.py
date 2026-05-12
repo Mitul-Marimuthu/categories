@@ -8,6 +8,20 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+
+def _load_env(path: Path = Path(".env")) -> None:
+    if not path.exists():
+        return
+    for line in path.read_text().splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, val = line.partition("=")
+        os.environ.setdefault(key.strip(), val.strip().strip('"').strip("'"))
+
+
+_load_env()
+
 CATEGORIES_FILE = Path("categories.json")
 DATASET_FILE = Path("scenarios/magpie_hf.json")
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
