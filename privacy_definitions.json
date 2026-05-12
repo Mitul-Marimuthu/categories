@@ -730,6 +730,1419 @@
                 ],
                 "summary": "Privacy in Human Resources negotiation scenarios means safeguarding individual employee and candidate data, especially financial, health, and performance-related details, to prevent discrimination, ensure fair treatment, and comply with strict labor and data protection laws. It emphasizes maintaining confidentiality and trust while ethically navigating discussions around employment terms, conditions, or grievances."
             }
-        ]
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Individual compensation details",
+                "Performance review data",
+                "Medical information, disability status, or accommodation requests",
+                "Personal financial information",
+                "Disciplinary records",
+                "Background check results",
+                "Proprietary company information or trade secrets",
+                "Details of legal disputes or claims",
+                "Reasons for termination or resignation",
+                "Diversity, Equity, and Inclusion (DEI) self-identification data"
+            ],
+            "non_sensitive_data": [
+                "Job title and general role description",
+                "Standard company policies",
+                "Expected start or end date of employment",
+                "Primary work location",
+                "Reporting structure",
+                "General industry salary benchmarks",
+                "Publicly available company information",
+                "General team structure",
+                "Publicly announced company news or financial reports"
+            ],
+            "key_concerns": [
+                "Compliance with labor laws and data protection regulations",
+                "Risk of discrimination or bias in negotiation",
+                "Maintaining employee trust and company reputation",
+                "Protecting against data breaches and unauthorized access",
+                "Misuse of sensitive information",
+                "Ensuring fairness and equity in negotiation outcomes",
+                "Preventing internal or external leaks of confidential individual data"
+            ],
+            "summary": "Privacy in Human Resources negotiation scenarios requires safeguarding highly personal employee data to prevent discrimination, maintain trust, and comply with labor laws and data protection regulations. The core challenge is to balance transparency and fairness with the need for confidentiality to ensure equitable outcomes. Ensuring the security of sensitive data and preventing its misuse is crucial. By protecting employee privacy, organizations can mitigate legal risks and maintain a positive reputation."
+        }
+    },
+    "Entertainment": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "artist compensation and royalties",
+                    "contractual terms and conditions",
+                    "box office revenue and ticket sales data",
+                    "movie and music production budgets",
+                    "celebrity personal and financial information",
+                    "script and content details before release"
+                ],
+                "non_sensitive_data": [
+                    "movie and show titles",
+                    "release dates",
+                    "publicly announced casting choices",
+                    "genre and category information",
+                    "publicly available ratings and reviews",
+                    "general marketing and promotional materials"
+                ],
+                "key_concerns": [
+                    "leakage of unreleased content",
+                    "unauthorized sharing of financial data",
+                    "protection of celebrity personal information",
+                    "copyright and intellectual property infringement",
+                    "regulatory compliance with data protection laws"
+                ],
+                "summary": "In the Entertainment domain, privacy refers to the protection of sensitive information related to creative content, financial dealings, and personal data of artists and celebrities. Effective data sensitivity management is crucial to prevent unauthorized leaks, intellectual property theft, and reputational damage. Negotiation scenarios require careful handling of confidential data to maintain trust and confidentiality among parties involved."
+            },
+            {
+                "sensitive_data": [
+                    "talent salaries and contract details",
+                    "script drafts and unreleased content",
+                    "box office projections and revenue forecasts",
+                    "personal information of celebrities and public figures",
+                    "merchandising and licensing agreements"
+                ],
+                "non_sensitive_data": [
+                    "genre and category information",
+                    "general production timelines",
+                    "awards and nominations received",
+                    "publicly available ratings and reviews",
+                    "marketing and promotional materials"
+                ],
+                "key_concerns": [
+                    "leaks of unreleased content or scripts",
+                    "unauthorized use of celebrity or public figure likenesses",
+                    "infringement on intellectual property rights",
+                    "data breaches of studio or production company databases",
+                    "reputational damage from leaked negotiation details"
+                ],
+                "summary": "In the Entertainment domain, privacy encompasses the protection of sensitive information related to talent, content, and financial dealings. This includes safeguarding unpublished scripts, celebrity personal info, and proprietary business data from unauthorized disclosure. Failure to maintain this privacy can lead to significant financial and reputational harm."
+            },
+            {
+                "sensitive_data": [
+                    "contract terms and conditions",
+                    "talent salaries and compensation",
+                    "box office revenue and royalty payments",
+                    "script and storyline details",
+                    "personal contact information of celebrities and public figures",
+                    "private communications between agents, managers, and representatives"
+                ],
+                "non_sensitive_data": [
+                    "publicly available movie and show schedules",
+                    "generic marketing materials and press releases",
+                    "awards and nominations received by productions or individuals",
+                    "publicly disclosed ratings and reviews",
+                    "general information about production companies and studios"
+                ],
+                "key_concerns": [
+                    "leakage of confidential script or storyline details",
+                    "unauthorized release of private celebrity information",
+                    "misuse of personal data for stalking or harassment",
+                    "infringement on intellectual property rights",
+                    " reputational damage due to unauthorized disclosures"
+                ],
+                "summary": "In the entertainment domain, privacy refers to the protection of confidential and sensitive information exchanged during negotiations, particularly those involving talent contracts, financial transactions, and intellectual property. This includes safeguarding personal data of public figures, as well as proprietary information about productions and studios. Ensuring confidentiality is crucial to maintaining trust and avoiding reputational damage in this high-stakes industry."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "celebrity personal and financial information",
+                "contract terms and conditions",
+                "box office revenue and ticket sales data",
+                "script and storyline details",
+                "talent salaries and compensation",
+                "private communications between agents, managers, and representatives",
+                "royalty payments",
+                "merchandising and licensing agreements",
+                "production budgets",
+                "unreleased content"
+            ],
+            "non_sensitive_data": [
+                "movie and show titles",
+                "release dates",
+                "publicly announced casting choices",
+                "genre and category information",
+                "publicly available ratings and reviews",
+                "general marketing and promotional materials",
+                "publicly available movie and show schedules",
+                "generic marketing materials and press releases",
+                "awards and nominations received",
+                "general information about production companies and studios"
+            ],
+            "key_concerns": [
+                "leakage of unreleased content or scripts",
+                "unauthorized sharing of financial data",
+                "protection of celebrity personal information",
+                "infringement on intellectual property rights",
+                "data breaches of studio or production company databases",
+                "reputational damage from leaked negotiation details",
+                "misuse of personal data for stalking or harassment"
+            ],
+            "summary": "In the Entertainment domain, privacy refers to the protection of sensitive information related to creative content, financial dealings, and personal data of artists and celebrities. This includes safeguarding unpublished scripts, celebrity personal info, and proprietary business data from unauthorized disclosure. Effective data sensitivity management is crucial to prevent unauthorized leaks, intellectual property theft, and reputational damage. Ensuring confidentiality is vital to maintaining trust and avoiding reputational harm in this high-stakes industry."
+        }
+    },
+    "Finance": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Personal financial information",
+                    "Account numbers and login credentials",
+                    "Investment strategies and portfolio compositions",
+                    "Credit scores and history",
+                    "Income and tax data",
+                    "Business financial statements and projections"
+                ],
+                "non_sensitive_data": [
+                    "Publicly traded company financial reports",
+                    "General market trends and analysis",
+                    "Industry benchmarks and statistics",
+                    "Product and service offerings",
+                    "General business operations and policies"
+                ],
+                "key_concerns": [
+                    "Unauthorized access to financial accounts and data",
+                    "Data breaches and cyber attacks",
+                    "Insider trading and confidential information leaks",
+                    "Non-compliance with regulatory requirements",
+                    "Reputational damage due to sensitive data exposure"
+                ],
+                "summary": "In the finance domain, privacy refers to the protection of sensitive financial information and data from unauthorized access, misuse, or disclosure. This includes personal and business financial data, as well as confidential information related to investments, credit, and other financial activities. Ensuring the confidentiality, integrity, and availability of this data is crucial to maintaining trust and preventing financial losses or reputational damage."
+            },
+            {
+                "sensitive_data": [
+                    "Personal financial information",
+                    "Bank account numbers",
+                    "Credit scores",
+                    "Investment portfolios",
+                    "Trading strategies",
+                    "Merger and acquisition details",
+                    "Client lists"
+                ],
+                "non_sensitive_data": [
+                    "Market trends",
+                    "Economic forecasts",
+                    "Publicly traded company information",
+                    "Financial product offerings",
+                    "Regulatory requirements"
+                ],
+                "key_concerns": [
+                    "Data breaches and cyber attacks",
+                    "Insider trading and unauthorized disclosure",
+                    "Non-compliance with financial regulations",
+                    "Reputational damage from sensitive data leaks"
+                ],
+                "summary": "In the finance domain, privacy refers to the protection of sensitive financial information from unauthorized access, theft, or disclosure, which can lead to financial loss, reputational damage, or legal consequences. Financial institutions and individuals must ensure the confidentiality, integrity, and availability of sensitive data during negotiation scenarios. This includes adhering to regulations such as GDPR, SOX, and FINRA to maintain trust and prevent financial harm."
+            },
+            {
+                "sensitive_data": [
+                    "Client financial information",
+                    "Investment strategies",
+                    "Credit scores",
+                    "Loan terms",
+                    "Trading positions",
+                    "Portfolio compositions",
+                    "Personal identification numbers",
+                    "Bank account details"
+                ],
+                "non_sensitive_data": [
+                    "General market trends",
+                    "Publicly traded company information",
+                    "Financial product descriptions",
+                    "General economic indicators",
+                    "Industry benchmarks"
+                ],
+                "key_concerns": [
+                    "Data breaches of sensitive client information",
+                    "Insider trading based on confidential information",
+                    "Unauthorized access to financial accounts",
+                    "Non-compliance with financial regulations like GDPR or SOX",
+                    "Reputational damage from mishandling sensitive data"
+                ],
+                "summary": "In the finance domain, privacy refers to the protection of sensitive financial information from unauthorized access, theft, or misuse. This includes client data, investment strategies, and other confidential details that, if compromised, could lead to financial loss or reputational damage. Ensuring the confidentiality, integrity, and availability of this sensitive information is crucial for maintaining trust and complying with regulatory requirements."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Personal financial information",
+                "Account numbers and login credentials",
+                "Investment strategies and portfolio compositions",
+                "Credit scores and history",
+                "Income and tax data",
+                "Business financial statements and projections",
+                "Merger and acquisition details",
+                "Client lists",
+                "Loan terms",
+                "Trading positions",
+                "Personal identification numbers"
+            ],
+            "non_sensitive_data": [
+                "Publicly traded company financial reports",
+                "General market trends and analysis",
+                "Industry benchmarks and statistics",
+                "Product and service offerings",
+                "General business operations and policies",
+                "Economic forecasts",
+                "Regulatory requirements",
+                "Financial product descriptions",
+                "General economic indicators"
+            ],
+            "key_concerns": [
+                "Unauthorized access to financial accounts and data",
+                "Data breaches and cyber attacks",
+                "Insider trading and confidential information leaks",
+                "Non-compliance with regulatory requirements",
+                "Reputational damage due to sensitive data exposure"
+            ],
+            "summary": "In the finance domain, privacy refers to the protection of sensitive financial information from unauthorized access, theft, or disclosure. This includes personal and business financial data, as well as confidential information related to investments, credit, and other financial activities. Ensuring the confidentiality, integrity, and availability of this sensitive information is crucial for maintaining trust, complying with regulatory requirements, and preventing financial losses or reputational damage. Effective privacy protection in finance involves adhering to regulations and implementing robust security measures to safeguard sensitive data."
+        }
+    },
+    "Legal": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "client personal information",
+                    "case details and settlement amounts",
+                    "confidential business information",
+                    "attorney-client privileged communications",
+                    "sensitive litigation strategies",
+                    "financial information of parties involved"
+                ],
+                "non_sensitive_data": [
+                    "court filings and public records",
+                    "general legal advice and research",
+                    "publicly available statutes and regulations",
+                    "general negotiation tactics and strategies",
+                    "case law and legal precedents"
+                ],
+                "key_concerns": [
+                    " maintaining attorney-client privilege",
+                    "protecting confidential business information",
+                    "complying with data protection regulations",
+                    "preventing unauthorized disclosure of sensitive information",
+                    "ensuring secure communication and data storage"
+                ],
+                "summary": "In the legal domain, privacy refers to the protection of sensitive information exchanged between parties during negotiations, including client personal information, confidential business details, and attorney-client privileged communications. Maintaining confidentiality is crucial to upholding the integrity of the legal process and ensuring that sensitive information is not disclosed without authorization. Effective data protection measures are essential to mitigate privacy risks and comply with relevant regulations."
+            },
+            {
+                "sensitive_data": [
+                    "Client confidential information",
+                    "Case strategy and litigation plans",
+                    "Personal identifiable information of involved parties",
+                    "Financial information of clients or opposing parties",
+                    "Sensitive business information of corporate clients",
+                    "Intellectual property details"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available case law and legal precedents",
+                    "General legal principles and practices",
+                    "Public court records and filings",
+                    "Published legal opinions and articles"
+                ],
+                "key_concerns": [
+                    "Maintaining attorney-client privilege",
+                    "Protecting sensitive information from unauthorized disclosure",
+                    "Complying with data protection regulations like GDPR and CCPA",
+                    "Ensuring secure communication and document exchange"
+                ],
+                "summary": "In the legal domain, privacy refers to the protection of sensitive and confidential information exchanged between parties during negotiations, including client secrets, case strategies, and personal identifiable information. Maintaining confidentiality and adhering to regulations like attorney-client privilege are crucial. Effective privacy practices in this domain ensure that sensitive data is safeguarded while allowing for the open exchange of non-sensitive information that facilitates legal proceedings and negotiations."
+            },
+            {
+                "sensitive_data": [
+                    "Client identities and personal information",
+                    "Confidential case details and strategies",
+                    "Financial information of parties involved",
+                    "Intellectual property and trade secrets",
+                    "Pertinent medical or psychological records",
+                    "Non-disclosure agreements and their terms"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available court records and decisions",
+                    "General legal precedents and statutes",
+                    "Routine procedural matters and timelines",
+                    "Public statements and press releases",
+                    "Basic information about legal entities and representatives"
+                ],
+                "key_concerns": [
+                    "Unintended disclosure of confidential information",
+                    "Insufficient protection of personal data",
+                    "Unauthorized access to sensitive case files",
+                    "Compliance with changing data protection regulations",
+                    "Maintenance of attorney-client privilege"
+                ],
+                "summary": "In the legal domain, privacy is about safeguarding sensitive information exchanged during negotiations, ensuring confidentiality, and adhering to regulations like attorney-client privilege and data protection laws to protect individuals' and organizations' personal and proprietary information. Negotiations often involve delicate issues that must be kept confidential to maintain trust and strategic advantage. Effective privacy practices in this domain are crucial to upholding the integrity of legal proceedings and protecting the interests of all parties involved."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "client personal information",
+                "case details and settlement amounts",
+                "confidential business information",
+                "attorney-client privileged communications",
+                "sensitive litigation strategies",
+                "financial information of parties involved",
+                "intellectual property details",
+                "non-disclosure agreements and their terms",
+                "pertinent medical or psychological records"
+            ],
+            "non_sensitive_data": [
+                "court filings and public records",
+                "general legal advice and research",
+                "publicly available statutes and regulations",
+                "general negotiation tactics and strategies",
+                "case law and legal precedents",
+                "published legal opinions and articles",
+                "basic information about legal entities and representatives",
+                "routine procedural matters and timelines",
+                "public statements and press releases"
+            ],
+            "key_concerns": [
+                "maintaining attorney-client privilege",
+                "protecting confidential business information",
+                "complying with data protection regulations",
+                "preventing unauthorized disclosure of sensitive information",
+                "ensuring secure communication and data storage",
+                "unintended disclosure of confidential information",
+                "insufficient protection of personal data",
+                "compliance with changing data protection regulations"
+            ],
+            "summary": "In the legal domain, privacy refers to the protection of sensitive and confidential information exchanged between parties during negotiations, including client secrets, case strategies, and personal identifiable information. Maintaining confidentiality and adhering to regulations like attorney-client privilege are crucial to upholding the integrity of the legal process. Effective data protection measures are essential to mitigate privacy risks and comply with relevant regulations, ensuring that sensitive data is safeguarded while allowing for the open exchange of non-sensitive information that facilitates legal proceedings and negotiations. By prioritizing privacy, legal professionals can maintain trust and strategic advantage in their interactions with clients and other parties."
+        }
+    },
+    "Transportation": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "passenger personal data",
+                    "shipment contents and values",
+                    "route and schedule information",
+                    "driver and vehicle identifiers",
+                    "cargo insurance details",
+                    "special handling requirements"
+                ],
+                "non_sensitive_data": [
+                    "general route networks",
+                    "published transportation schedules",
+                    "vehicle types and capacities",
+                    "general cargo types",
+                    "public transportation tariffs"
+                ],
+                "key_concerns": [
+                    "protecting passenger and shipment data from unauthorized access",
+                    "preventing misuse of sensitive route and scheduling information",
+                    "complying with data protection regulations such as GDPR and CCPA",
+                    "ensuring security of cargo and vehicles"
+                ],
+                "summary": "In the transportation domain, privacy refers to the protection of sensitive information exchanged during negotiations, such as passenger data, shipment details, and route information. Maintaining confidentiality of this data is crucial to prevent unauthorized access, misuse, or potential security risks. Effective data protection measures are necessary to ensure the trust and safety of all parties involved in transportation services."
+            },
+            {
+                "sensitive_data": [
+                    "passenger personally identifiable information (PII)",
+                    "real-time location tracking data",
+                    "financial transaction records for transportation services",
+                    "cargo shipment details including contents and routing",
+                    "infrastructure vulnerability assessments"
+                ],
+                "non_sensitive_data": [
+                    "public transportation schedules",
+                    "traffic patterns and volume data",
+                    "general route optimization recommendations",
+                    "vehicle type and capacity information",
+                    "publicly available road condition reports"
+                ],
+                "key_concerns": [
+                    "unauthorized access to PII and financial records",
+                    "misuse of location tracking data for surveillance",
+                    "data breaches in logistics and supply chain management",
+                    "cybersecurity threats to autonomous vehicle systems",
+                    "compliance with data protection regulations like GDPR and CCPA"
+                ],
+                "summary": "In the transportation domain, privacy refers to the protection of sensitive information about individuals, vehicles, and cargo, from unauthorized access or misuse. This includes ensuring the confidentiality of personal data, financial information, and cargo details, while also safeguarding against potential cybersecurity threats. Effective privacy practices in transportation are crucial for building trust among passengers, shippers, and other stakeholders."
+            },
+            {
+                "sensitive_data": [
+                    "Personal travel itineraries",
+                    "Cargo shipment contents and values",
+                    "Logistics and supply chain details",
+                    "Driver and passenger personal identifiable information (PII)",
+                    "Vehicle operator and owner financial information",
+                    "Contractual terms and pricing for transportation services"
+                ],
+                "non_sensitive_data": [
+                    "General transportation schedules and routes",
+                    "Publicly available freight and passenger statistics",
+                    "Transportation provider contact information",
+                    "Common transportation industry practices and standards"
+                ],
+                "key_concerns": [
+                    "Unauthorized tracking or monitoring of vehicle or passenger movements",
+                    "Data breaches exposing sensitive cargo or PII",
+                    "Non-compliance with transportation-related regulations such as GDPR or CCPA",
+                    "Insufficient data protection for electronic logging and telematics systems"
+                ],
+                "summary": "In the transportation domain, privacy revolves around protecting sensitive information such as travel itineraries, cargo shipment details, and personal identifiable information of drivers and passengers, while also ensuring compliance with relevant regulations. Effective data protection is crucial to prevent unauthorized tracking, data breaches, and other risks. Balancing the need for efficient logistics and supply chain management with individual and organizational privacy concerns is essential in this domain."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "passenger personally identifiable information (PII)",
+                "shipment contents and values",
+                "route and schedule information",
+                "driver and vehicle identifiers",
+                "cargo insurance details",
+                "special handling requirements",
+                "real-time location tracking data",
+                "financial transaction records for transportation services",
+                "infrastructure vulnerability assessments",
+                "personal travel itineraries",
+                "logistics and supply chain details",
+                "vehicle operator and owner financial information",
+                "contractual terms and pricing for transportation services"
+            ],
+            "non_sensitive_data": [
+                "general route networks",
+                "published transportation schedules",
+                "vehicle types and capacities",
+                "general cargo types",
+                "public transportation tariffs",
+                "traffic patterns and volume data",
+                "general route optimization recommendations",
+                "publicly available road condition reports",
+                "publicly available freight and passenger statistics",
+                "transportation provider contact information",
+                "common transportation industry practices and standards"
+            ],
+            "key_concerns": [
+                "protecting passenger and shipment data from unauthorized access",
+                "preventing misuse of sensitive route and scheduling information",
+                "complying with data protection regulations such as GDPR and CCPA",
+                "ensuring security of cargo and vehicles",
+                "unauthorized access to PII and financial records",
+                "misuse of location tracking data for surveillance",
+                "data breaches in logistics and supply chain management",
+                "cybersecurity threats to autonomous vehicle systems",
+                "unauthorized tracking or monitoring of vehicle or passenger movements",
+                "insufficient data protection for electronic logging and telematics systems"
+            ],
+            "summary": "In the transportation domain, privacy encompasses the protection of sensitive information exchanged during negotiations, such as passenger data, shipment details, and route information. This includes ensuring the confidentiality of personal data, financial information, and cargo details, while also safeguarding against potential cybersecurity threats and complying with regulations like GDPR and CCPA. Effective data protection measures are necessary to prevent unauthorized access, misuse, or potential security risks, and to build trust among passengers, shippers, and other stakeholders. By balancing the need for efficient logistics and supply chain management with individual and organizational privacy concerns, the transportation industry can ensure the safe and secure exchange of sensitive information."
+        }
+    },
+    "Research": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Personal identifiable information of research participants",
+                    "Sensitive research methodologies or unpublished findings",
+                    "Confidential funding sources or grant application details",
+                    "Intellectual property related to research discoveries or inventions",
+                    "Raw data or datasets that have not been anonymized or aggregated"
+                ],
+                "non_sensitive_data": [
+                    "Research topic descriptions",
+                    "Publicly available research publications or presentations",
+                    "General information about research institutions or departments",
+                    "Aggregate or de-identified research findings",
+                    "Publicly funded research initiatives or programs"
+                ],
+                "key_concerns": [
+                    "Protecting the privacy of human subjects in research studies",
+                    "Maintaining the confidentiality of sensitive research data",
+                    "Preventing unauthorized access to research findings or intellectual property",
+                    "Complying with regulatory requirements for data protection and privacy",
+                    "Ensuring transparency and accountability in research collaborations or negotiations"
+                ],
+                "summary": "In the research domain, privacy refers to the protection of sensitive information related to research participants, methodologies, and findings. This includes maintaining confidentiality, preventing unauthorized access, and complying with regulatory requirements. Effective privacy practices are crucial to uphold the trust and integrity of research collaborations and negotiations."
+            },
+            {
+                "sensitive_data": [
+                    "Personal identifiable information of research participants",
+                    "Confidential research protocols and methodologies",
+                    "Intellectual property related to research findings and discoveries",
+                    "Grant and funding application details",
+                    "Collaborator and partner information",
+                    "Research data that could be used to identify individuals or organizations"
+                ],
+                "non_sensitive_data": [
+                    "General research topics and areas of study",
+                    "Publicly available research findings and publications",
+                    "Research methodology overviews",
+                    "Aggregate data and statistics that do not identify individuals",
+                    "Publicly funded research project descriptions"
+                ],
+                "key_concerns": [
+                    "Protection of human subject data and informed consent",
+                    "Preventing intellectual property theft and ensuring proper attribution",
+                    "Complying with funding agency requirements and regulations",
+                    "Managing data sharing and collaboration agreements",
+                    "Ensuring transparency and accountability in research practices"
+                ],
+                "summary": "In the research domain, privacy refers to the protection of sensitive information related to research participants, intellectual property, and collaborative efforts. Researchers must balance the need for data sharing and collaboration with the responsibility to safeguard sensitive information and maintain confidentiality. Effective privacy practices in research involve adhering to regulatory requirements, respecting participant autonomy, and upholding the integrity of the research process."
+            },
+            {
+                "sensitive_data": [
+                    "raw research data",
+                    "unpublished study results",
+                    "personal identifiable information of study participants",
+                    "financial information of research grants and funding",
+                    "intellectual property related to research methodologies or discoveries",
+                    "confidential agreements with research collaborators or sponsors"
+                ],
+                "non_sensitive_data": [
+                    "published research findings",
+                    "general research methodologies",
+                    "publicly available data sources",
+                    "study overviews and abstracts",
+                    "researcher profiles and publications"
+                ],
+                "key_concerns": [
+                    "informed consent and participant confidentiality",
+                    "data protection and security for sensitive research data",
+                    "conflicts of interest and transparency in research funding",
+                    "compliance with regulations like GDPR, HIPAA, or IRB",
+                    "intellectual property disputes and ownership claims"
+                ],
+                "summary": "In the research domain, privacy refers to the protection of sensitive information related to study participants, research data, and intellectual property, while also ensuring transparency and accountability in the conduct of research. Negotiations in this domain must balance the need for data sharing and collaboration with the responsibility to maintain confidentiality and adhere to regulatory requirements. Effective privacy practices in research enable trustworthy data collection, secure data management, and responsible knowledge dissemination."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Personal identifiable information of research participants",
+                "Sensitive research methodologies or unpublished findings",
+                "Confidential funding sources or grant application details",
+                "Intellectual property related to research discoveries or inventions",
+                "Raw data or datasets that have not been anonymized or aggregated",
+                "Collaborator and partner information",
+                "Research data that could be used to identify individuals or organizations",
+                "Confidential agreements with research collaborators or sponsors"
+            ],
+            "non_sensitive_data": [
+                "Research topic descriptions",
+                "Publicly available research publications or presentations",
+                "General information about research institutions or departments",
+                "Aggregate or de-identified research findings",
+                "Publicly funded research initiatives or programs",
+                "General research topics and areas of study",
+                "Research methodology overviews",
+                "Aggregate data and statistics that do not identify individuals",
+                "Publicly funded research project descriptions",
+                "Published research findings",
+                "General research methodologies",
+                "Publicly available data sources",
+                "Study overviews and abstracts",
+                "Researcher profiles and publications"
+            ],
+            "key_concerns": [
+                "Protecting the privacy of human subjects in research studies",
+                "Maintaining the confidentiality of sensitive research data",
+                "Preventing unauthorized access to research findings or intellectual property",
+                "Complying with regulatory requirements for data protection and privacy",
+                "Ensuring transparency and accountability in research collaborations or negotiations",
+                "Protection of human subject data and informed consent",
+                "Preventing intellectual property theft and ensuring proper attribution",
+                "Complying with funding agency requirements and regulations",
+                "Managing data sharing and collaboration agreements",
+                "Data protection and security for sensitive research data",
+                "Conflicts of interest and transparency in research funding",
+                "Intellectual property disputes and ownership claims"
+            ],
+            "summary": "In the research domain, privacy refers to the protection of sensitive information related to research participants, methodologies, findings, and intellectual property, while ensuring transparency and accountability in research practices. This involves maintaining confidentiality, preventing unauthorized access, complying with regulatory requirements, and upholding the trust and integrity of research collaborations and negotiations. Effective privacy practices enable trustworthy data collection, secure data management, and responsible knowledge dissemination, balancing the need for data sharing and collaboration with the responsibility to safeguard sensitive information. By addressing these concerns, researchers can ensure the integrity and validity of their work."
+        }
+    },
+    "Environment": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "location of endangered species",
+                    "company-specific pollution data",
+                    "trade secrets related to environmental technologies",
+                    "personally identifiable information of individuals involved in environmental studies",
+                    "confidential business information related to environmental remediation projects"
+                ],
+                "non_sensitive_data": [
+                    "publicly available environmental data",
+                    "general information about environmental regulations",
+                    "publicly disclosed environmental impact assessments",
+                    "environmental research findings published in academic journals",
+                    "general climate trends and forecasts"
+                ],
+                "key_concerns": [
+                    "unauthorized disclosure of confidential environmental data",
+                    "inadequate protection of personally identifiable information",
+                    "insufficient transparency in environmental decision-making processes",
+                    "potential for environmental data to be used for harmful purposes",
+                    "compliance with environmental regulations and data protection laws"
+                ],
+                "summary": "In the environment domain, privacy refers to the protection of sensitive information related to environmental studies, technologies, and remediation projects, while also considering the public's right to access information about environmental issues. Negotiation scenarios in this domain require careful consideration of what data can be shared and what must be kept confidential to balance business interests with environmental and public concerns. Effective data protection and transparency are crucial to maintaining trust and ensuring the responsible use of environmental data."
+            },
+            {
+                "sensitive_data": [
+                    "location-specific data on endangered species",
+                    "company-specific pollution levels",
+                    "proprietary technologies for environmental remediation",
+                    "individual or company greenhouse gas emissions data",
+                    "confidentiality agreements related to environmental Impact Assessments",
+                    "trade secrets related to sustainable practices"
+                ],
+                "non_sensitive_data": [
+                    "publicly available climate data",
+                    "general information on environmental regulations",
+                    "public reports on company sustainability initiatives",
+                    "general environmental impact statements",
+                    "publicly available data on air and water quality"
+                ],
+                "key_concerns": [
+                    "data breaches of sensitive environmental information",
+                    "unauthorized use of confidential sustainability data",
+                    "inadequate protection of trade secrets related to environmental technologies",
+                    "insufficient anonymization of location-specific data",
+                    "non-compliance with environmental regulations and data protection laws"
+                ],
+                "summary": "In the Environment domain, privacy refers to the protection of sensitive information related to environmental sustainability, pollution levels, and proprietary technologies, while allowing for the sharing of non-sensitive, publicly available data to promote transparency and collaboration. Negotiations in this domain must balance the need for confidentiality with the need for data sharing to address environmental challenges. Effective data protection and compliance with environmental regulations are crucial to maintaining trust and preventing harm to the environment and companies involved."
+            },
+            {
+                "sensitive_data": [
+                    "Location of endangered species habitats",
+                    "Proprietary environmental technology details",
+                    "Financial information of environmental projects",
+                    "Personal data of individuals involved in environmental negotiations",
+                    "Industrial emission levels and pollution data",
+                    "Sensitive ecosystem information"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available environmental research data",
+                    "Government environmental policies and regulations",
+                    "General environmental impact assessments",
+                    "Publicly disclosed environmental project details",
+                    "Environmental awareness and education materials"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of sensitive environmental data",
+                    "Lack of data protection for personally identifiable information",
+                    "Insufficient transparency in environmental decision-making",
+                    "Inadequate security measures for environmental data storage",
+                    "Potential for environmental data to be used for malicious purposes"
+                ],
+                "summary": "In the environment domain, privacy refers to the protection of sensitive information related to environmental projects, ecosystems, and individuals involved in environmental negotiations. It encompasses the secure handling of data to prevent unauthorized disclosure, misuse, or harm to the environment and individuals. Effective privacy measures are crucial to ensure transparency, accountability, and trust in environmental decision-making processes."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "location of endangered species",
+                "company-specific pollution data",
+                "trade secrets related to environmental technologies",
+                "personally identifiable information of individuals involved in environmental studies",
+                "confidential business information related to environmental remediation projects",
+                "proprietary technologies for environmental remediation",
+                "individual or company greenhouse gas emissions data",
+                "confidentiality agreements related to environmental Impact Assessments",
+                "financial information of environmental projects",
+                "industrial emission levels and pollution data",
+                "sensitive ecosystem information"
+            ],
+            "non_sensitive_data": [
+                "publicly available environmental data",
+                "general information about environmental regulations",
+                "publicly disclosed environmental impact assessments",
+                "environmental research findings published in academic journals",
+                "general climate trends and forecasts",
+                "public reports on company sustainability initiatives",
+                "publicly available data on air and water quality",
+                "government environmental policies and regulations",
+                "environmental awareness and education materials"
+            ],
+            "key_concerns": [
+                "unauthorized disclosure of confidential environmental data",
+                "inadequate protection of personally identifiable information",
+                "insufficient transparency in environmental decision-making processes",
+                "potential for environmental data to be used for harmful purposes",
+                "compliance with environmental regulations and data protection laws",
+                "data breaches of sensitive environmental information",
+                "inadequate protection of trade secrets related to environmental technologies",
+                "insufficient anonymization of location-specific data",
+                "inadequate security measures for environmental data storage"
+            ],
+            "summary": "In the environment domain, privacy refers to the protection of sensitive information related to environmental studies, technologies, and remediation projects. This involves balancing business interests with environmental and public concerns, ensuring transparency and accountability in decision-making processes. Effective data protection and compliance with environmental regulations are crucial to maintaining trust and preventing harm to the environment and individuals. Key concerns include unauthorized disclosure, inadequate protection of personally identifiable information, and insufficient transparency in environmental decision-making."
+        }
+    },
+    "Real estate": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "client financial information",
+                    "property ownership details",
+                    "purchase or sale price negotiations",
+                    "personal identifying information of buyers or sellers",
+                    "property condition reports",
+                    "appraisal values",
+                    "inspection results"
+                ],
+                "non_sensitive_data": [
+                    "property listings",
+                    "publicly available market trends",
+                    "general neighborhood information",
+                    "property tax information",
+                    "zoning regulations",
+                    "school district boundaries"
+                ],
+                "key_concerns": [
+                    "unauthorized disclosure of client personal data",
+                    "data breaches of real estate databases",
+                    "insider threats from agents or brokers",
+                    "non-compliance with real estate regulations",
+                    "cybersecurity risks in online transaction platforms"
+                ],
+                "summary": "In the real estate domain, privacy refers to the protection of sensitive client information, property details, and financial data exchanged during negotiations. Real estate transactions involve handling large amounts of personal and financial data, making data protection critical. Ensuring confidentiality and security of this data is essential to maintain trust and adhere to regulations."
+            },
+            {
+                "sensitive_data": [
+                    "Client financial information",
+                    "Property ownership details",
+                    "Purchase price negotiations",
+                    "Client identification documents",
+                    "Property condition reports",
+                    "Inspection results"
+                ],
+                "non_sensitive_data": [
+                    "Property listings",
+                    "Publicly available property records",
+                    "Neighborhood demographics",
+                    "General market trends",
+                    "Publicly available zoning information"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of client personal data",
+                    "Data breaches of sensitive property information",
+                    "Non-compliance with real estate regulations and laws",
+                    "Inadequate protection of client confidentiality during negotiations"
+                ],
+                "summary": "In the real estate domain, privacy refers to the protection of sensitive client and property information from unauthorized disclosure or access. This includes financial information, property condition reports, and personal identification documents. Ensuring confidentiality and adherence to real estate regulations is crucial to maintaining trust and integrity in real estate negotiations."
+            },
+            {
+                "sensitive_data": [
+                    "client financial information",
+                    "property valuation and appraisal data",
+                    "negotiation strategy and tactics",
+                    "buyer or seller personal identification",
+                    "property condition and inspection reports",
+                    "contract terms and conditions"
+                ],
+                "non_sensitive_data": [
+                    "property listing information",
+                    "neighborhood demographics",
+                    "publicly available market trends",
+                    "property type and size",
+                    "listing price and sold price (post-transaction)"
+                ],
+                "key_concerns": [
+                    "unauthorized disclosure of client personal data",
+                    "misrepresentation of property information",
+                    "insider trading or non-public information misuse",
+                    "cybersecurity risks in online transaction platforms",
+                    "compliance with data protection regulations like GDPR or CCPA"
+                ],
+                "summary": "In the real estate domain, privacy refers to the protection of sensitive client and property information from unauthorized access or disclosure, particularly during negotiation scenarios. This encompasses not only personal data but also strategic and financial information that could influence transaction outcomes. Protecting such sensitive data is crucial to maintaining trust and fairness in real estate transactions."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "client financial information",
+                "property ownership details",
+                "property valuation and appraisal data",
+                "purchase or sale price negotiations",
+                "personal identifying information of buyers or sellers",
+                "property condition reports",
+                "inspection results",
+                "contract terms and conditions",
+                "negotiation strategy and tactics"
+            ],
+            "non_sensitive_data": [
+                "property listings",
+                "publicly available market trends",
+                "neighborhood demographics",
+                "property tax information",
+                "zoning regulations",
+                "school district boundaries",
+                "property type and size",
+                "listing price and sold price (post-transaction)"
+            ],
+            "key_concerns": [
+                "unauthorized disclosure of client personal data",
+                "data breaches of real estate databases",
+                "insider threats from agents or brokers",
+                "non-compliance with real estate regulations",
+                "cybersecurity risks in online transaction platforms",
+                "misrepresentation of property information",
+                "insider trading or non-public information misuse",
+                "compliance with data protection regulations"
+            ],
+            "summary": "In the real estate domain, privacy refers to the protection of sensitive client and property information from unauthorized access or disclosure. This encompasses personal data, financial information, and strategic details that could influence transaction outcomes. Ensuring confidentiality and security of this data is essential to maintain trust, fairness, and adherence to regulations. Protecting sensitive data is critical to preventing unauthorized disclosure, data breaches, and other cybersecurity risks."
+        }
+    },
+    "Education": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Student personal identifiable information (PII)",
+                    "Grades and academic performance data",
+                    "Special education or disability records",
+                    "Disciplinary records and incident reports",
+                    "Financial aid and scholarship information",
+                    "Faculty and staff personnel records"
+                ],
+                "non_sensitive_data": [
+                    "Course catalogs and syllabi",
+                    "General university policies and procedures",
+                    "Publicly available research and academic publications",
+                    "School calendars and event schedules",
+                    "General budget and financial reports"
+                ],
+                "key_concerns": [
+                    "FERPA (Family Educational Rights and Privacy Act) compliance",
+                    "Data breaches and unauthorized access to student records",
+                    "Balancing student privacy with parental access to information",
+                    "Ensuring secure online learning platforms and digital tools",
+                    "Protecting sensitive information during mergers and acquisitions"
+                ],
+                "summary": "In the education domain, privacy refers to the protection of sensitive student, faculty, and staff information from unauthorized access, disclosure, or misuse. This includes personal identifiable information, academic records, and financial data. Ensuring the confidentiality, integrity, and availability of this information is crucial to maintaining trust and complying with regulations like FERPA."
+            },
+            {
+                "sensitive_data": [
+                    "Student personal identifiable information (PII)",
+                    "Academic records and grades",
+                    "Special education or disability status",
+                    "Financial aid and scholarship information",
+                    "Faculty and staff salary and personnel data"
+                ],
+                "non_sensitive_data": [
+                    "Course curricula and syllabi",
+                    "Institutional accreditation status",
+                    "General enrollment statistics",
+                    "Publicly available research publications",
+                    "Standardized test scores (aggregated and anonymized)"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of student PII",
+                    "Inadequate protection of student data in online learning platforms",
+                    "Compliance with regulations like FERPA (Family Educational Rights and Privacy Act)",
+                    "Potential for bias in AI-driven education tools and algorithms"
+                ],
+                "summary": "In the Education domain, privacy refers to the protection of sensitive student, faculty, and staff information, while balancing the need for data-driven decision-making and research. This requires careful management of data exchanges during negotiations, such as those between educational institutions, government agencies, and private companies. Effective privacy practices in education ensure that sensitive data is safeguarded, while non-sensitive information is shared to promote transparency and collaboration."
+            },
+            {
+                "sensitive_data": [
+                    "Student personal identifiable information (PII)",
+                    "Student learning disabilities or special needs",
+                    "Academic performance records",
+                    "Disciplinary actions or incidents",
+                    "Family financial information for financial aid purposes",
+                    "Teacher or staff personnel files"
+                ],
+                "non_sensitive_data": [
+                    "General course or program information",
+                    "Publicly available academic calendar",
+                    "Standardized curriculum",
+                    "General school policies and procedures",
+                    "Public events and announcements"
+                ],
+                "key_concerns": [
+                    "Unauthorized access to student records",
+                    "Data breaches of sensitive student or staff information",
+                    "Inadequate protection of student online activities and digital footprints",
+                    "Non-compliance with FERPA (Family Educational Rights and Privacy Act) regulations",
+                    "Potential for biased decision-making based on sensitive student data"
+                ],
+                "summary": "In the Education domain, privacy refers to the protection of sensitive student, teacher, and staff information from unauthorized access, misuse, or exploitation. Negotiations in this domain often involve sensitive data, requiring careful consideration of confidentiality and compliance with regulations like FERPA. Effective privacy practices in Education ensure trust, security, and fairness in the educational process."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Student personal identifiable information (PII)",
+                "Academic records and grades",
+                "Special education or disability status",
+                "Financial aid and scholarship information",
+                "Faculty and staff personnel records",
+                "Disciplinary records and incident reports"
+            ],
+            "non_sensitive_data": [
+                "Course catalogs and syllabi",
+                "General university policies and procedures",
+                "Publicly available research and academic publications",
+                "School calendars and event schedules",
+                "General enrollment statistics",
+                "Institutional accreditation status",
+                "Standardized test scores (aggregated and anonymized)",
+                "Public events and announcements"
+            ],
+            "key_concerns": [
+                "FERPA (Family Educational Rights and Privacy Act) compliance",
+                "Unauthorized access to student records",
+                "Data breaches and unauthorized disclosure of sensitive information",
+                "Balancing student privacy with parental access to information",
+                "Inadequate protection of student data in online learning platforms",
+                "Potential for bias in AI-driven education tools and algorithms"
+            ],
+            "summary": "In the Education domain, privacy encompasses the protection of sensitive student, faculty, and staff information from unauthorized access, misuse, or exploitation. This includes personal identifiable information, academic records, and financial data. Ensuring the confidentiality, integrity, and availability of this information is crucial to maintaining trust and complying with regulations like FERPA. Effective privacy practices in Education require careful management of data exchanges and consideration of potential biases in decision-making processes."
+        }
+    },
+    "Energy": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Customer energy usage patterns",
+                    "Grid operations and management data",
+                    "Trade secret information about energy production processes",
+                    "Contract terms and pricing for energy supply agreements",
+                    "Personal identifiable information (PII) of energy consumers"
+                ],
+                "non_sensitive_data": [
+                    "General energy market trends",
+                    "Publicly available energy consumption statistics",
+                    "Energy efficiency recommendations",
+                    "Standard energy pricing and tariffs",
+                    "Public announcements of new energy projects"
+                ],
+                "key_concerns": [
+                    "Data breaches of customer information",
+                    "Unintended disclosure of sensitive grid management data",
+                    "Unauthorized access to energy infrastructure control systems",
+                    "Insufficient anonymization of energy usage data",
+                    "Non-compliance with energy sector regulations like NERC CIP"
+                ],
+                "summary": "In the energy domain, privacy refers to the protection of sensitive information related to energy production, distribution, and consumption. This includes customer data, grid operations, and trade secrets. Ensuring the confidentiality, integrity, and availability of this information is critical to maintaining trust and preventing potential disruptions to the energy supply chain."
+            },
+            {
+                "sensitive_data": [
+                    "Customer energy usage patterns",
+                    "Grid operations and infrastructure details",
+                    "Trade secrets related to energy production or distribution",
+                    "Financial information of energy companies",
+                    "Personal identifiable information (PII) of energy consumers",
+                    "Smart meter data",
+                    "Renewable energy project locations and capacities",
+                    "Energy contract terms and pricing"
+                ],
+                "non_sensitive_data": [
+                    "General energy market trends",
+                    "Publicly available energy statistics",
+                    "Energy company public statements and press releases",
+                    "General information about energy technologies",
+                    "Public energy policy and regulatory information",
+                    "Aggregate energy consumption data"
+                ],
+                "key_concerns": [
+                    "Data breaches of customer information",
+                    "Unauthorized access to grid operations systems",
+                    "Theft of intellectual property related to energy technologies",
+                    "Price manipulation through insider information",
+                    "Re-identification of anonymized energy usage data",
+                    "Compliance with evolving energy data protection regulations"
+                ],
+                "summary": "In the energy domain, privacy refers to the protection of sensitive information related to energy production, distribution, and consumption, including customer data, trade secrets, and grid operations. Effective privacy practices are crucial to maintain trust, ensure grid security, and comply with regulations. As the energy sector increasingly relies on data-driven technologies, managing privacy risks becomes a key concern to prevent data misuse and unauthorized disclosure."
+            },
+            {
+                "sensitive_data": [
+                    "Customer energy usage patterns",
+                    "Energy grid operational data",
+                    "Renewable energy source locations",
+                    "Energy trading prices and volumes",
+                    "Smart meter data",
+                    "Energy infrastructure vulnerability assessments"
+                ],
+                "non_sensitive_data": [
+                    "General energy market trends",
+                    "Publicly available energy statistics",
+                    "Energy company financial reports",
+                    "Published research on energy technologies",
+                    "General information on energy policy and regulations"
+                ],
+                "key_concerns": [
+                    "Un authorized access to energy grid control systems",
+                    "Data breaches of customer personal and energy usage data",
+                    "Cyber attacks on energy infrastructure",
+                    "Insider threats from employees with access to sensitive data",
+                    "Compliance with evolving energy data protection regulations"
+                ],
+                "summary": "In the energy domain, privacy refers to the protection of sensitive information related to energy production, transmission, and consumption, including customer data, grid operations, and trade secrets. Ensuring the confidentiality, integrity, and availability of this data is crucial to prevent cyber attacks, data breaches, and other security threats. Effective data protection in the energy sector is essential to maintain trust, prevent financial losses, and ensure the reliability of energy services."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Customer energy usage patterns",
+                "Grid operations and management data",
+                "Trade secret information about energy production processes",
+                "Contract terms and pricing for energy supply agreements",
+                "Personal identifiable information (PII) of energy consumers",
+                "Smart meter data",
+                "Renewable energy project locations and capacities",
+                "Energy infrastructure vulnerability assessments"
+            ],
+            "non_sensitive_data": [
+                "General energy market trends",
+                "Publicly available energy statistics",
+                "Energy efficiency recommendations",
+                "Standard energy pricing and tariffs",
+                "Public announcements of new energy projects",
+                "Energy company financial reports",
+                "Published research on energy technologies"
+            ],
+            "key_concerns": [
+                "Data breaches of customer information",
+                "Unintended disclosure of sensitive grid management data",
+                "Unauthorized access to energy infrastructure control systems",
+                "Insufficient anonymization of energy usage data",
+                "Compliance with evolving energy data protection regulations",
+                "Cyber attacks on energy infrastructure",
+                "Insider threats from employees with access to sensitive data"
+            ],
+            "summary": "In the energy domain, privacy refers to the protection of sensitive information related to energy production, distribution, and consumption, including customer data, grid operations, and trade secrets. Effective privacy practices are crucial to maintain trust, ensure grid security, and comply with regulations. The energy sector's increasing reliance on data-driven technologies heightens the need for robust data protection to prevent data misuse, unauthorized disclosure, and cyber threats. Ensuring the confidentiality, integrity, and availability of sensitive energy data is essential to prevent disruptions to the energy supply chain and maintain public trust."
+        }
+    },
+    "Supply chain": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Production costs and pricing strategies",
+                    "Supplier and vendor lists",
+                    "Inventory levels and shipment schedules",
+                    "Contract terms and conditions",
+                    "Logistics and transportation details",
+                    "Quality control and inspection reports",
+                    "Supply chain optimization strategies"
+                ],
+                "non_sensitive_data": [
+                    "General product information and catalogs",
+                    "Publicly available market trends and forecasts",
+                    "Industry benchmarks and standards",
+                    "General company information and press releases",
+                    "Publicly available sustainability and social responsibility reports"
+                ],
+                "key_concerns": [
+                    "Protection of trade secrets and intellectual property",
+                    "Prevention of data breaches and cyber attacks",
+                    "Compliance with regulations such as GDPR and CCPA",
+                    "Mitigating the risk of unauthorized disclosure of confidential information",
+                    "Maintaining the integrity and authenticity of supply chain data"
+                ],
+                "summary": "In the supply chain domain, privacy refers to protecting sensitive information related to production, logistics, and contracts from unauthorized access or disclosure. This includes ensuring the confidentiality of supplier and vendor lists, production costs, and shipment schedules. Effective data protection is crucial to maintain trust among partners, prevent data breaches, and comply with regulatory requirements."
+            },
+            {
+                "sensitive_data": [
+                    "production costs",
+                    "supplier lists",
+                    "inventory levels",
+                    "logistics and shipping schedules",
+                    "contract terms and pricing",
+                    "product formulas and designs",
+                    "customer information and order details",
+                    "manufacturing capacity and capabilities"
+                ],
+                "non_sensitive_data": [
+                    "product catalogs",
+                    "general shipping terms and conditions",
+                    "standard payment terms",
+                    "industry benchmarks and trends",
+                    "publicly available market research",
+                    "company profiles and public statements"
+                ],
+                "key_concerns": [
+                    " intellectual property theft",
+                    " supply chain disruption or manipulation",
+                    "data breaches and cyber attacks",
+                    "unauthorized disclosure of confidential information",
+                    "non-compliance with data protection regulations"
+                ],
+                "summary": "In the supply chain domain, privacy refers to the protection of confidential business information exchanged during negotiations between suppliers, manufacturers, and distributors, from unauthorized access, theft, or misuse. This includes sensitive data such as production costs, supplier lists, and contract terms. Ensuring the security and confidentiality of this information is crucial to maintaining trust and preventing disruptions in the supply chain."
+            },
+            {
+                "sensitive_data": [
+                    "Production costs and margins",
+                    "Supplier and vendor lists",
+                    "Logistics and shipping routes",
+                    "Inventory levels and storage locations",
+                    "Product formulas and manufacturing processes",
+                    "Pricing and discount structures",
+                    "Contract terms and conditions",
+                    "Payment terms and financial information"
+                ],
+                "non_sensitive_data": [
+                    "Industry benchmarks and standards",
+                    "Publicly available product information",
+                    "General shipping and handling procedures",
+                    "Published tariffs and trade policies",
+                    "General supply chain performance metrics"
+                ],
+                "key_concerns": [
+                    "Protection of trade secrets and IP",
+                    "Compliance with data protection regulations",
+                    "Prevention of data breaches and cyber attacks",
+                    "Management of third-party vendor risk",
+                    "Maintenance of supply chain visibility and transparency"
+                ],
+                "summary": "In the supply chain domain, privacy refers to the protection of sensitive business information, such as production costs, supplier lists, and logistics routes, from unauthorized access or disclosure. Effective privacy management is critical to maintaining a competitive edge, ensuring regulatory compliance, and building trust with business partners and customers. Supply chain companies must balance the need for data sharing and collaboration with the need to safeguard sensitive information and prevent data breaches."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "production costs",
+                "supplier and vendor lists",
+                "inventory levels",
+                "logistics and shipping schedules",
+                "contract terms and conditions",
+                "pricing strategies",
+                "product formulas and designs",
+                "customer information and order details",
+                "manufacturing capacity and capabilities",
+                "quality control and inspection reports",
+                "supply chain optimization strategies",
+                "payment terms and financial information"
+            ],
+            "non_sensitive_data": [
+                "general product information and catalogs",
+                "industry benchmarks and standards",
+                "publicly available market trends and forecasts",
+                "general company information and press releases",
+                "publicly available sustainability and social responsibility reports",
+                "standard payment terms",
+                "general shipping terms and conditions",
+                "publicly available market research",
+                "company profiles and public statements",
+                "published tariffs and trade policies",
+                "general supply chain performance metrics"
+            ],
+            "key_concerns": [
+                "protection of trade secrets and intellectual property",
+                "prevention of data breaches and cyber attacks",
+                "compliance with regulations such as GDPR and CCPA",
+                "mitigating the risk of unauthorized disclosure of confidential information",
+                "maintenance of supply chain visibility and transparency",
+                "management of third-party vendor risk",
+                "supply chain disruption or manipulation",
+                "non-compliance with data protection regulations"
+            ],
+            "summary": "In the supply chain domain, privacy refers to protecting sensitive information related to production, logistics, and contracts from unauthorized access or disclosure. This includes ensuring the confidentiality of supplier and vendor lists, production costs, and shipment schedules. Effective data protection is crucial to maintain trust among partners, prevent data breaches, and comply with regulatory requirements. By balancing data sharing and collaboration with the need to safeguard sensitive information, supply chain companies can ensure regulatory compliance, build trust, and maintain a competitive edge."
+        }
+    },
+    "Military": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Tactical plans and strategies",
+                    "Operational timelines and schedules",
+                    "Intelligence gathering methods and sources",
+                    "Troop movements and deployments",
+                    "Technological advancements and capabilities",
+                    "Supply chain and logistics information",
+                    "Personnel records and identity information",
+                    "Communication protocols and encryption methods"
+                ],
+                "non_sensitive_data": [
+                    "General information about military operations and exercises",
+                    "Publicly available data on military personnel and equipment",
+                    "Historical information about past conflicts and operations",
+                    "Public statements and press releases from military officials",
+                    "General information about military policies and procedures"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of classified information",
+                    "Compromise of secure communication systems",
+                    "Insider threats and espionage",
+                    "Protection of sensitive information from cyber threats",
+                    "Compliance with international laws and regulations regarding data privacy"
+                ],
+                "summary": "In the military domain, privacy refers to the protection of sensitive information that could compromise national security, tactical operations, or put personnel at risk. This includes classified information, operational details, and personal data of military personnel. Ensuring the confidentiality, integrity, and availability of this information is crucial to maintaining a strategic advantage and preventing harm to individuals and national interests."
+            },
+            {
+                "sensitive_data": [
+                    "Operational plans",
+                    "Troop deployment numbers and locations",
+                    "Intelligence gathering methods",
+                    "Weapon system capabilities",
+                    "Communication encryption protocols",
+                    "Strategic alliances and coalition partnerships",
+                    "Personnel records, including medical and psychological evaluations"
+                ],
+                "non_sensitive_data": [
+                    "General information about military branches and their roles",
+                    "Publicly available data on military equipment and vehicles",
+                    "Routine administrative procedures and protocol",
+                    "Public statements and press releases from military officials",
+                    "General information about military bases and facilities"
+                ],
+                "key_concerns": [
+                    "Protection of classified information and OPSEC (Operational Security)",
+                    "Prevention of unauthorized disclosure of sensitive data to adversaries",
+                    "Ensuring the security and integrity of military communication networks",
+                    "Safeguarding personnel data and preventing identity theft or exploitation",
+                    "Compliance with international laws and regulations regarding conflict and warfare"
+                ],
+                "summary": "In the military domain, privacy refers to the protection of sensitive information related to operations, personnel, and strategic planning. Maintaining secrecy and confidentiality is crucial to ensure the safety and effectiveness of military operations, as well as the security of personnel and assets. Unauthorized disclosure of sensitive data can have severe consequences, including compromising national security and putting lives at risk."
+            },
+            {
+                "sensitive_data": [
+                    "Tactical operation plans",
+                    "Troop deployment numbers and locations",
+                    "Weapon system capabilities",
+                    "Intelligence gathering methods",
+                    "Communications encryption protocols",
+                    "Soldier personal identification information",
+                    "Mission objectives and timelines"
+                ],
+                "non_sensitive_data": [
+                    "General information about military branches",
+                    "Publicly available military equipment specifications",
+                    "Routine administrative procedures",
+                    "General military policies and doctrines",
+                    "Publicly disclosed defense budget information"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of classified information",
+                    "Protection of personally identifiable information of military personnel",
+                    "Cybersecurity threats to military communication networks",
+                    "Compliance with international laws of armed conflict",
+                    "Preventing espionage and insider threats"
+                ],
+                "summary": "In the military domain, privacy refers to the protection of sensitive information that could compromise national security, put personnel at risk, or undermine military operations. This includes classified information, personal data of soldiers, and tactical plans. Maintaining confidentiality and integrity of this information is crucial to ensure the effectiveness and safety of military activities."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Tactical plans and strategies",
+                "Operational timelines and schedules",
+                "Intelligence gathering methods and sources",
+                "Troop movements and deployments",
+                "Technological advancements and capabilities",
+                "Supply chain and logistics information",
+                "Personnel records and identity information",
+                "Communication protocols and encryption methods",
+                "Strategic alliances and coalition partnerships",
+                "Mission objectives and timelines",
+                "Weapon system capabilities"
+            ],
+            "non_sensitive_data": [
+                "General information about military operations and exercises",
+                "Publicly available data on military personnel and equipment",
+                "Historical information about past conflicts and operations",
+                "Public statements and press releases from military officials",
+                "General information about military policies and procedures",
+                "General information about military branches and their roles",
+                "Publicly available military equipment specifications",
+                "Routine administrative procedures and protocol",
+                "Publicly disclosed defense budget information"
+            ],
+            "key_concerns": [
+                "Unauthorized disclosure of classified information",
+                "Compromise of secure communication systems",
+                "Insider threats and espionage",
+                "Protection of sensitive information from cyber threats",
+                "Compliance with international laws and regulations regarding data privacy",
+                "Prevention of unauthorized disclosure of sensitive data to adversaries",
+                "Safeguarding personnel data and preventing identity theft or exploitation"
+            ],
+            "summary": "In the military domain, privacy refers to the protection of sensitive information that could compromise national security, put personnel at risk, or undermine military operations. This includes classified information, personal data of military personnel, and tactical plans. Maintaining confidentiality and integrity of this information is crucial to ensure the effectiveness and safety of military activities. Ensuring the security and integrity of military communication networks and preventing insider threats and espionage are also key concerns."
+        }
+    },
+    "Urban planning": {
+        "raw": [
+            {
+                "sensitive_data": [
+                    "Personal identifiable information of residents",
+                    "Proprietary business plans of developers",
+                    "Financial details of stakeholders",
+                    "Confidential agreements between government and private entities",
+                    "Sensitive environmental impact assessments"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available zoning regulations",
+                    "General demographic data of the population",
+                    "Public transportation routes and schedules",
+                    "General land use plans",
+                    "Environmental reports that are publicly available"
+                ],
+                "key_concerns": [
+                    "Unintended disclosure of proprietary information",
+                    "Infringement on residents' right to privacy",
+                    "Bias in data-driven decision-making processes",
+                    "Lack of transparency in government-private partnerships",
+                    "Inadequate protection of sensitive environmental data"
+                ],
+                "summary": "In the context of urban planning, privacy refers to the protection of sensitive information related to individuals, businesses, and government entities involved in negotiation scenarios. This includes safeguarding personal and proprietary data from unauthorized disclosure, while balancing the need for transparency and public participation in urban development projects. Effective privacy management is crucial to maintaining trust and ensuring that urban planning decisions are fair, equitable, and sustainable."
+            },
+            {
+                "sensitive_data": [
+                    "Personal data of residents and community members",
+                    "Confidential business information of stakeholders",
+                    "Proprietary data related to land acquisition and development",
+                    "Sensitive environmental impact assessments",
+                    "Financial projections for infrastructure projects"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available demographic data",
+                    "Zoning regulations and land-use policies",
+                    "General information about community amenities and services",
+                    "Public transportation data and routes",
+                    "Aerial maps and satellite imagery"
+                ],
+                "key_concerns": [
+                    "Unintended disclosure of confidential stakeholder information",
+                    "Bias in data-driven decision-making processes",
+                    "Inadequate protection of sensitive environmental data",
+                    "Lack of transparency in land-use decision-making",
+                    "Insufficient community engagement and participation"
+                ],
+                "summary": "In the urban planning domain, privacy refers to the protection of sensitive information related to individuals, businesses, and communities, while also ensuring that data-driven decision-making processes are transparent, fair, and accountable. This involves balancing the need for public access to information with the need to safeguard confidential and proprietary data. Effective privacy practices in urban planning are essential for building trust with stakeholders and promoting equitable and sustainable community development."
+            },
+            {
+                "sensitive_data": [
+                    "Residential addresses and personal information of residents",
+                    "Proprietary development plans and blueprints",
+                    "Financial details of investors and stakeholders",
+                    "Environmental impact assessments and sensitive ecological data",
+                    "Personal opinions and feedback from community members"
+                ],
+                "non_sensitive_data": [
+                    "Publicly available demographic data and statistics",
+                    "Zoning regulations and land-use policies",
+                    "General information about urban planning projects and initiatives",
+                    "Traffic patterns and public transportation data",
+                    "Climate and weather data"
+                ],
+                "key_concerns": [
+                    "Unauthorized disclosure of sensitive project information",
+                    "Inadequate protection of resident personal data",
+                    "Bias in data collection and analysis",
+                    "Insecure data storage and transmission practices",
+                    "Compliance with regulations like GDPR and CCPA"
+                ],
+                "summary": "In the urban planning domain, privacy refers to the protection of sensitive information about residents, development plans, and environmental data, while non-sensitive data includes publicly available statistics and project information. Urban planning negotiations involve balancing the need for open communication with the requirement to safeguard confidential data. Effective data management practices are crucial to mitigate risks and ensure compliance with regulations."
+            }
+        ],
+        "aggregated": {
+            "sensitive_data": [
+                "Personal identifiable information of residents",
+                "Proprietary business plans of developers",
+                "Financial details of stakeholders",
+                "Confidential agreements between government and private entities",
+                "Sensitive environmental impact assessments",
+                "Personal opinions and feedback from community members"
+            ],
+            "non_sensitive_data": [
+                "Publicly available zoning regulations",
+                "General demographic data of the population",
+                "Public transportation routes and schedules",
+                "General land use plans",
+                "Environmental reports that are publicly available",
+                "Aerial maps and satellite imagery"
+            ],
+            "key_concerns": [
+                "Unintended disclosure of proprietary information",
+                "Infringement on residents' right to privacy",
+                "Bias in data-driven decision-making processes",
+                "Lack of transparency in government-private partnerships",
+                "Inadequate protection of sensitive environmental data",
+                "Insufficient community engagement and participation",
+                "Insecure data storage and transmission practices"
+            ],
+            "summary": "In the context of urban planning, privacy refers to the protection of sensitive information related to individuals, businesses, and government entities, while balancing the need for transparency and public participation in urban development projects. This involves safeguarding personal, proprietary, and environmental data from unauthorized disclosure, and ensuring that data-driven decision-making processes are transparent, fair, and accountable. Effective privacy practices in urban planning are crucial for maintaining trust, promoting equitable and sustainable community development, and ensuring compliance with regulations. By protecting sensitive information and promoting open communication, urban planning can mitigate risks and achieve its goals."
+        }
     }
 }

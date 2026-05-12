@@ -3,3 +3,5 @@ magpie_data/
 scenarios/
 .claude/
 .env
+download_hf_dataset.py
+download_magpie_data.py

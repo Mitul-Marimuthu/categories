@@ -103,6 +103,7 @@ def call_api(system_prompt: str, user_prompt: str, retries: int = 4) -> dict:
     headers = {
         "Content-Type": "application/json",
         "Authorization": f"Bearer {API_KEY}",
+        "User-Agent": "Mozilla/5.0 (compatible; python-requests)",
     }
 
     # --- Gemini (commented out for later use) ---
