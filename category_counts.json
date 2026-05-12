@@ -1,5 +1,9 @@
 [
     {
+        "category": "Technology",
+        "count": 23
+    },
+    {
         "category": "Policy",
         "count": 23
     },
@@ -8,20 +12,16 @@
         "count": 21
     },
     {
-        "category": "Technology",
-        "count": 21
+        "category": "Human resources",
+        "count": 20
     },
     {
-        "category": "Human Resources",
-        "count": 20
+        "category": "Entertainment",
+        "count": 17
     },
     {
         "category": "Finance",
         "count": 17
-    },
-    {
-        "category": "Entertainment",
-        "count": 15
     },
     {
         "category": "Legal",
@@ -29,7 +29,7 @@
     },
     {
         "category": "Transportation",
-        "count": 12
+        "count": 13
     },
     {
         "category": "Research",
@@ -40,6 +40,10 @@
         "count": 10
     },
     {
+        "category": "Real estate",
+        "count": 8
+    },
+    {
         "category": "Education",
         "count": 8
     },
@@ -48,51 +52,15 @@
         "count": 5
     },
     {
-        "category": "Supply Chain",
+        "category": "Supply chain",
         "count": 5
-    },
-    {
-        "category": "Real Estate",
-        "count": 5
-    },
-    {
-        "category": "Real estate",
-        "count": 3
     },
     {
         "category": "Military",
-        "count": 3
+        "count": 4
     },
     {
-        "category": "Product launch",
-        "count": 1
-    },
-    {
-        "category": "Infrastructure",
-        "count": 1
-    },
-    {
-        "category": "Sports",
-        "count": 1
-    },
-    {
-        "category": "Urban Planning",
-        "count": 1
-    },
-    {
-        "category": "Art",
-        "count": 1
-    },
-    {
-        "category": "Travel",
-        "count": 1
-    },
-    {
-        "category": "Telecommunications",
-        "count": 1
-    },
-    {
-        "category": "Emergency Management",
-        "count": 1
+        "category": "Urban planning",
+        "count": 2
     }
 ]

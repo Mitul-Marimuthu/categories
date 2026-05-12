@@ -2,7 +2,7 @@
     "categories": [
         {
             "filename": "timeline_1",
-            "category": "Product launch"
+            "category": "Technology"
         },
         {
             "filename": "medical_collaboration_1",
@@ -74,7 +74,7 @@
         },
         {
             "filename": "salary_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "treaty_1",
@@ -102,7 +102,7 @@
         },
         {
             "filename": "shipping_3",
-            "category": "Supply Chain"
+            "category": "Supply chain"
         },
         {
             "filename": "crowdfunding_3",
@@ -122,7 +122,7 @@
         },
         {
             "filename": "recruitment_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "patent_2",
@@ -130,11 +130,11 @@
         },
         {
             "filename": "salary_3",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "infrastructure_1",
-            "category": "Infrastructure"
+            "category": "Urban planning"
         },
         {
             "filename": "network_planning_3",
@@ -150,7 +150,7 @@
         },
         {
             "filename": "carpooling_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "dispute_1",
@@ -158,19 +158,19 @@
         },
         {
             "filename": "arbitration_3",
-            "category": "Sports"
+            "category": "Entertainment"
         },
         {
             "filename": "urban_planning_1",
-            "category": "Urban Planning"
+            "category": "Urban planning"
         },
         {
             "filename": "auction_1",
-            "category": "Art"
+            "category": "Entertainment"
         },
         {
             "filename": "vacation_2",
-            "category": "Travel"
+            "category": "Transportation"
         },
         {
             "filename": "resource_sharing_2",
@@ -198,7 +198,7 @@
         },
         {
             "filename": "roommates_1",
-            "category": "Real Estate"
+            "category": "Real estate"
         },
         {
             "filename": "crowdsourced_innovation_1",
@@ -238,7 +238,7 @@
         },
         {
             "filename": "gifting_3",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "conference_2",
@@ -250,7 +250,7 @@
         },
         {
             "filename": "performance_1",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "cloud_computing_3",
@@ -290,11 +290,11 @@
         },
         {
             "filename": "mediation_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "supply_chain_2",
-            "category": "Supply Chain"
+            "category": "Supply chain"
         },
         {
             "filename": "inheritance_3",
@@ -314,11 +314,11 @@
         },
         {
             "filename": "real_estate_1",
-            "category": "Real Estate"
+            "category": "Real estate"
         },
         {
             "filename": "supply_chain_3",
-            "category": "Supply Chain"
+            "category": "Supply chain"
         },
         {
             "filename": "admissions_2",
@@ -326,7 +326,7 @@
         },
         {
             "filename": "seating_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "p2p_lending_1",
@@ -338,7 +338,7 @@
         },
         {
             "filename": "development_3",
-            "category": "Real Estate"
+            "category": "Real estate"
         },
         {
             "filename": "routing_3",
@@ -358,7 +358,7 @@
         },
         {
             "filename": "gifting_2",
-            "category": "Supply Chain"
+            "category": "Supply chain"
         },
         {
             "filename": "skill_matching_1",
@@ -366,7 +366,7 @@
         },
         {
             "filename": "job_market_1",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "ride_sharing_3",
@@ -402,7 +402,7 @@
         },
         {
             "filename": "career_development_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "gifting_1",
@@ -422,7 +422,7 @@
         },
         {
             "filename": "job_market_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "research_1",
@@ -430,7 +430,7 @@
         },
         {
             "filename": "telecom_3",
-            "category": "Telecommunications"
+            "category": "Technology"
         },
         {
             "filename": "spectrum_2",
@@ -438,7 +438,7 @@
         },
         {
             "filename": "conflict_3",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "admissions_1",
@@ -462,7 +462,7 @@
         },
         {
             "filename": "shift_work_3",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "fleet_2",
@@ -470,7 +470,7 @@
         },
         {
             "filename": "development_1",
-            "category": "Real Estate"
+            "category": "Real estate"
         },
         {
             "filename": "fleet_3",
@@ -478,7 +478,7 @@
         },
         {
             "filename": "shift_work_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "open_source_2",
@@ -534,7 +534,7 @@
         },
         {
             "filename": "job_market_3",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "career_development_3",
@@ -586,7 +586,7 @@
         },
         {
             "filename": "mentorship_1",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "crowdsourced_innovation_2",
@@ -630,7 +630,7 @@
         },
         {
             "filename": "recruitment_1",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "procurement_3",
@@ -678,7 +678,7 @@
         },
         {
             "filename": "vacation_1",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "student_advisor_1",
@@ -686,7 +686,7 @@
         },
         {
             "filename": "urban_planning_3",
-            "category": "Real Estate"
+            "category": "Real estate"
         },
         {
             "filename": "auction_3",
@@ -746,7 +746,7 @@
         },
         {
             "filename": "calendar_2",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "healthcare_scheduling_3",
@@ -774,11 +774,11 @@
         },
         {
             "filename": "emergency_1",
-            "category": "Emergency Management"
+            "category": "Military"
         },
         {
             "filename": "roommates_3",
-            "category": "Human Resources"
+            "category": "Human resources"
         },
         {
             "filename": "transportation_3",
@@ -794,7 +794,7 @@
         },
         {
             "filename": "delivery_3",
-            "category": "Supply Chain"
+            "category": "Supply chain"
         },
         {
             "filename": "conservation_1",
