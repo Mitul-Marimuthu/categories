@@ -22,7 +22,7 @@ def _load_env(path: Path = Path(".env")) -> None:
 
 _load_env()
 
-CATEGORIES_FILE = Path("categories.json")
+CATEGORIES_FILE = Path("results/categories.json")
 DATASET_FILE = Path("scenarios/magpie_hf.json")
 API_KEY = os.environ.get("GEMINI_API_KEY", "")
 MODEL = "gemini-2.5-flash"

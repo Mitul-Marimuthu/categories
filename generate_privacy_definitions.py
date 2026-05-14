@@ -36,8 +36,8 @@ MODEL = "llama-3.3-70b-versatile"
 
 ATTEMPTS = 3
 DELAY = 1  # seconds between calls
-OUTPUT_FILE = Path("privacy_definitions.json")
-CATEGORIES_FILE = Path("category_counts.json")
+OUTPUT_FILE = Path("results/privacy_definitions.json")
+CATEGORIES_FILE = Path("results/category_counts.json")
 
 GENERATION_SYSTEM_PROMPT = """\
 You are a privacy and data sensitivity expert. Your job is to analyze a specific \

@@ -9,11 +9,12 @@ This project downloads, categorizes, and generates privacy definitions for negot
 ```
 .
 ├── categorize.py                  # Categorizes scenarios by domain using Gemini API
-├── categories.json                # Output: per-scenario domain labels (gitignored)
 ├── count_categories.py            # Counts category frequencies
-├── category_counts.json           # Output: category → count mapping
 ├── generate_privacy_definitions.py # Generates & aggregates privacy definitions per domain
-├── privacy_definitions.json       # Output: raw + aggregated definitions (gitignored)
+├── results/
+│   ├── categories.json            # Per-scenario domain labels (gitignored)
+│   ├── category_counts.json       # Category → count mapping
+│   └── privacy_definitions.json  # Raw + aggregated definitions (gitignored)
 ├── scenarios/
 │   └── magpie_hf.json             # HuggingFace dataset, 200 scenarios (gitignored)
 ├── .env                           # API keys (gitignored)
@@ -176,8 +177,8 @@ python3 generate_privacy_definitions.py  # generate privacy definitions
 |---|---|
 | `scenarios/` | Large dataset files |
 | `magpie_data/` | Raw downloaded source data |
-| `categories.json` | Generated output |
-| `privacy_definitions.json` | Generated output |
+| `results/categories.json` | Generated output |
+| `results/privacy_definitions.json` | Generated output |
 | `.env` | API keys |
 | `download_hf_dataset.py` | Utility script, not part of core pipeline |
 | `download_magpie_data.py` | Utility script, not part of core pipeline |
