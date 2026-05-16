@@ -13,3 +13,5 @@ Path("results/category_counts.json").write_text(json.dumps(result, indent=4))
 print(f"Saved {len(result)} categories ({sum(counts.values())} total scenarios)")
 for r in result:
     print(f"  {r['count']:>3}  {r['category']}")
+
+# dummy commnet
