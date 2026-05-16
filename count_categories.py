@@ -14,4 +14,3 @@ print(f"Saved {len(result)} categories ({sum(counts.values())} total scenarios)"
 for r in result:
     print(f"  {r['count']:>3}  {r['category']}")
 
-# dummy commnet
